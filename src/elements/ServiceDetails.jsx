@@ -4,6 +4,7 @@ import ModalVideo from 'react-modal-video';
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/HeaderThree";
+import Pic from "../../public/assets/images/service/solarPic.jpg";
 
 
 
@@ -30,6 +31,7 @@ class AllyAudit extends Component{
 
                 {/* Start Breadcrump Area */}
                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--5"  data-black-overlay="5">
+                   {/* <div> {Pic} </div>  */}
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -54,7 +56,7 @@ class AllyAudit extends Component{
                                         <div className="row sercice-details-content pb--80 align-items-center">
                                             <div className="col-lg-6 col-12">
                                                 <div className="thumb">
-                                                    <img className="w-100" src="/assets/images/service/service-01.png" alt="Service Images"/>
+                                                    <img className="w-100" src="/assets/images/service/service-22.jpg" alt="Service Images"/>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12">
@@ -69,7 +71,7 @@ class AllyAudit extends Component{
                                                     </ul>
                                                     <h4 className="title">The Problem</h4>
                                                         <p>Fix the legacy code accessability issues and improve the usability of the UI </p>
-                                                        <ul>
+                                                        <ul className="liststyle">
                                                             <li>How can I meet the WCAG AA standards? </li>
                                                             <li>How can address tha main user roadblocks?</li> 
                                                             <li>How can I improve the visual consistency across a large legacy codebase? </li>
@@ -85,25 +87,20 @@ class AllyAudit extends Component{
                                                 <div className="details mt_md--30 mt_sm--30">
                                         
                                                     <h4 className="title">Process Overview</h4>
-                                                    <p>Multi-dimensional Audit </p>
                                                     <ul className="liststyle">
-                                                    
-                                                    <li><em>Research: </em>Initial audit complete with Axe-Core and  documented with Airtable</li>
-                                                    <li><em>Brainstorm: </em>Prioritized every opportunity for improvement</li>
-                                                    <li><em>Build: </em>Prototyped solutions in Figma</li>
-                                                    <li><em>Test: </em>Presented a high-level overview of the audit and the prototyped accessible solutions to stakeholders including users</li>
-                                                    <li><em>Iterate: </em>Refine designs based on stakeholder's feedback</li>
-                                                    <li><em>Deliver: </em>Collaborated with cross-disciplinary teams to implement my recommendations in the front end with CSS, React, HTML/JSX</li>
-                                                   
-                                                  
+                                                        <li><em>Research: </em>Initial multidimensional audit complete with <em>Axe-Core</em> and documented with Airtable</li>
+                                                        <li><em>Brainstorm: </em>Prioritized every opportunity for improvement</li>
+                                                        <li><em>Build: </em>Prototyped solutions in <em>Figma</em></li>
+                                                        <li><em>Test: </em>Presented a high-level overview of the audit and the prototyped accessible solutions to stakeholders including users</li>
+                                                        <li><em>Iterate: </em>Refined designs based on stakeholder's feedback</li>
+                                                        <li><em>Deliver: </em>Collaborated with cross-disciplinary teams to implement my recommendations in the User Interface with <em>CSS, React, HTML/JSX</em></li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12 order-1 order-lg-2">
                                                 <div className="thumb position-relative">
-                                                    <img className="w-100" src="/assets/images/service/service-02.png" alt="Service Images"/>
-                                                    <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ZOoVOfieAF8' onClose={() => this.setState({isOpen: false})} />
-                                                    <button className="video-popup" onClick={this.openModal}><span className="play-icon"></span></button>
+                                                    <img className="w-100" src="/assets/images/service/service-25.jpg" alt="Service Images"/>
+                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -113,16 +110,16 @@ class AllyAudit extends Component{
                                           <div className="row sercice-details-content pb--80 align-items-center">
                                             <div className="col-lg-6 col-12">
                                                 <div className="thumb">
-                                                    <img className="w-100" src="/assets/images/service/service-01.png" alt="Service Images"/>
+                                                <img className="w-100" src="/assets/images/service/service-20.svg" alt="Service Images"/>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12">
                                                 <div className="details mt_md--30 mt_sm--30">
                                                     <h4 className="title">Solution #1</h4>
                                                     <h5>Visual Consitecy</h5>
-                                                        <ul>
-                                                            <li>Improved the color pallete by reducing the number of colors used </li>
-                                                            <li> Increased color contrast of all status colors</li> 
+                                                        <ul className="liststyle">
+                                                            <li>Improved the color pallette by reducing the number of colors used </li>
+                                                            <li> Increased color contrast of all status colors to meet WCAG standards </li> 
                                                             <li> Created cohesion by cleaning up the Style guide’s display and implementation of buttons and links</li>
                                                         </ul>
                                                 </div>
@@ -142,9 +139,9 @@ class AllyAudit extends Component{
                                             </div>
                                             <div className="col-lg-6 col-12 order-1 order-lg-2">
                                                 <div className="thumb position-relative">
-                                                    <img className="w-100" src="/assets/images/service/service-02.png" alt="Service Images"/>
-                                                    <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ZOoVOfieAF8' onClose={() => this.setState({isOpen: false})} />
-                                                    <button className="video-popup" onClick={this.openModal}><span className="play-icon"></span></button>
+                                                    <img className="w-100" src="/assets/images/service/service-21.svg" alt="Service Images"/>
+                                                   
+                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -153,7 +150,7 @@ class AllyAudit extends Component{
                                         <div className="row sercice-details-content pb--80 align-items-center">
                                             <div className="col-lg-6 col-12">
                                                 <div className="thumb">
-                                                    <img className="w-100" src="/assets/images/service/service-01.png" alt="Service Images"/>
+                                                    <img className="w-100" src="/assets/images/service/service-26.jpg" alt="Service Images"/>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12">
@@ -170,7 +167,7 @@ class AllyAudit extends Component{
                                                         </li>
                                                         <li>
                                                             <h3>Collaborating with a Team of Engineers</h3>
-                                                            <p> I taught the development team solutions to their most common errors, which addressed the source of the problem and reduced further bottleneck of accessability issues.</p>
+                                                            <p> I taught the development team solutions to their most common errors, which addressed the source of the problem and reduced further creation of technical debt.</p>
 
                                                         </li>
                                                     </ul>

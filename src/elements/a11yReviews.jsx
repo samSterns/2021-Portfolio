@@ -3,9 +3,10 @@ import PageHelmet from "../component/common/Helmet";
 import ModalVideo from 'react-modal-video';
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/HeaderThree";
+import Header from "../component/header/HeaderCaseStudy";
 import Counter from "../elements/counters/CounterOne"
 import Footer from "../component/footer/FooterTwo";
+// import Pic from "../../public/assets/images/service/solarPic.jpg";
 
 
 class a11yReviews extends Component{
@@ -24,13 +25,14 @@ class a11yReviews extends Component{
             <React.Fragment>
                 
                 {/* Start Pagehelmet  */}
-                <PageHelmet pageTitle='Service Details' />
+                <PageHelmet pageTitle='A11y Reviews Case Study' />
                 {/* End Pagehelmet  */}
 
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                 {/* Start Breadcrump Area */}
-                <div className="n-page-titler-area pt--120 pb--190 bg_image bg_image--5"  data-black-overlay="5">
+                <div className="n-page-titler-area pt--120 pb--190 bg_image bg_image--6"  data-black-overlay="5">
+               
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">

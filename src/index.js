@@ -10,32 +10,33 @@ import './index.scss';
 
 
 // Home layout
-import Demo from './page-demo/Demo';
-import MainDemo from './home/MainDemo';
-import Startup from './home/Startup';
-import Paralax from './home/Paralax';
-import HomePortfolio from './home/HomePortfolio';
-import DigitalAgency from './home/DigitalAgency';
-import CreativeAgency from './home/CreativeAgency';
-import PersonalPortfolio from './home/PersonalPortfolio';
-import Business from './home/Business';
-import StudioAgency from './home/StudioAgency';
-import PortfolioLanding from './home/PortfolioLanding';
-import CreativeLanding from './home/CreativeLanding';
-import HomeParticles from './home/HomeParticles';
-import CreativePortfolio from './home/CreativePortfolio';
-import DesignerPortfolio from './home/DesignerPortfolio';
-import InteriorLanding from './home/Interior';
-import CorporateBusiness from './home/CorporateBusiness';
+// import Demo from './page-demo/Demo';
+// import MainDemo from './home/MainDemo';
+// import Startup from './home/Startup';
+// import Paralax from './home/Paralax';
+// import HomePortfolio from './home/HomePortfolio';
+// import DigitalAgency from './home/DigitalAgency';
+// import CreativeAgency from './home/CreativeAgency';
+// import PersonalPortfolio from './home/PersonalPortfolio';
+// import Business from './home/Business';
+// import StudioAgency from './home/StudioAgency';
+// import PortfolioLanding from './home/PortfolioLanding';
+// import CreativeLanding from './home/CreativeLanding';
+// import HomeParticles from './home/HomeParticles';
+// import CreativePortfolio from './home/CreativePortfolio';
+// import DesignerPortfolio from './home/DesignerPortfolio';
+// import InteriorLanding from './home/Interior';
+// import CorporateBusiness from './home/CorporateBusiness';
 
 // Dark Home Layout 
-import DarkMainDemo from './dark/MainDemo';
+// import DarkMainDemo from './dark/MainDemo';
 import DarkPortfolioLanding from './dark/PortfolioLanding';
 
 // Element Layout
 import Service from "./elements/Service";
 import ServiceDetails from "./elements/ServiceDetails";
 import a11yReviews from "./elements/a11yReviews";
+import a11yAudit from "./elements/a11yAudit"
 import About from "./elements/About";
 import Contact from "./elements/Contact";
 import PortfolioDetails from "./elements/PortfolioDetails";
@@ -68,7 +69,7 @@ class Root extends Component{
         return(
             <BrowserRouter basename={'/'}>
                 <Switch>
-                    <Route exact path={`${process.env.PUBLIC_URL}/`} component={Demo}/>
+                    {/* <Route exact path={`${process.env.PUBLIC_URL}/`} component={Demo}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/main-demo`} component={MainDemo}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/dark-main-demo`} component={DarkMainDemo}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/startup`} component={Startup}/>
@@ -82,15 +83,17 @@ class Root extends Component{
                     <Route exact path={`${process.env.PUBLIC_URL}/portfolio-home`} component={HomePortfolio}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/portfolio-landing`} component={PortfolioLanding}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/creative-landing`} component={CreativeLanding}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/home-particles`} component={HomeParticles}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/dark-portfolio-landing`} component={DarkPortfolioLanding}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/designer-portfolio`} component={DesignerPortfolio}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/home-particles`} component={HomeParticles}/> */}
+                    <Route exact path={`${process.env.PUBLIC_URL}/`} component={DarkPortfolioLanding}/>
+                    {/* <Route exact path={`${process.env.PUBLIC_URL}/designer-portfolio`} component={DesignerPortfolio}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/creative-portfolio`} component={CreativePortfolio}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/interior-landing`} component={InteriorLanding}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/corporate-business`} component={CorporateBusiness}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/corporate-business`} component={CorporateBusiness}/> */}
 
 
                     {/* Element Layot */}
+                    <Route exact path={`${process.env.PUBLIC_URL}/a11yReview`} component={a11yReviews}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/a11yAudit`} component={a11yAudit}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/service-details`} component={ServiceDetails}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>

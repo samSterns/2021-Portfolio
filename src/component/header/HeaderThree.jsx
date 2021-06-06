@@ -70,11 +70,11 @@ class HeaderThree extends Component{
             <header className={`header-area header-style-two header--fixed`}>
                 <div className="header-wrapper">
                     <div className="header-left d-flex align-items-center">
-                        <div className="logo"> 
+                        {/* <div className="logo"> 
                             <a href={this.props.homeLink}>
                                 {logo}
                             </a>
-                        </div>
+                        </div> */}
                         <nav className="mainmenunav d-lg-block ml--50">
                             <Scrollspy className="mainmenu" items={['home','about','service','portfolio','blog','contact']} currentClassName="is-current" offset={-200}>
                                 <li><a href="#home">Home</a></li>
@@ -89,7 +89,7 @@ class HeaderThree extends Component{
                         <div className="social-share-inner">
                             <ul className="social-share social-style--2 color-black d-flex justify-content-start liststyle">
                                 {SocialShare.map((val , i) => (
-                                    <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
+                                    <li key={i}><a target="_blank" href={`${val.link}`}>{val.Social}</a></li>
                                 ))}
                             </ul>
                         </div>
