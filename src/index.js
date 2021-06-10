@@ -37,6 +37,7 @@ import Service from "./elements/Service";
 import ServiceDetails from "./elements/ServiceDetails";
 import a11yReviews from "./elements/a11yReviews";
 import a11yAudit from "./elements/a11yAudit"
+import CaseStudyProduct from "./elements/caseStudyProduct"
 import About from "./elements/About";
 import Contact from "./elements/Contact";
 import PortfolioDetails from "./elements/PortfolioDetails";
@@ -62,6 +63,7 @@ import PricingTable from "./blocks/PricingTable";
 
 import { BrowserRouter, Switch, Route  } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
+import caseStudyProduct from './elements/caseStudyProduct';
 
 
 class Root extends Component{
@@ -94,6 +96,7 @@ class Root extends Component{
                     {/* Element Layot */}
                     <Route exact path={`${process.env.PUBLIC_URL}/a11yReview`} component={a11yReviews}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/a11yAudit`} component={a11yAudit}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/caseStudyProduct`} component={CaseStudyProduct}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/service-details`} component={ServiceDetails}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>

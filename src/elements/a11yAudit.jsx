@@ -30,7 +30,7 @@ class AllyAudit extends Component{
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                 {/* Start Breadcrump Area */}
-                <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--5"  data-black-overlay="5">
+                <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--6"  data-black-overlay="5">
                     
                     
                     <div className="container">
@@ -74,7 +74,7 @@ class AllyAudit extends Component{
                                                         <p>Fix the legacy code accessability issues and improve the usability of the UI </p>
                                                         <ul className="liststyle">
                                                             <li>How can I meet the WCAG AA standards? </li>
-                                                            <li>How can address tha main user roadblocks?</li> 
+                                                            <li>How can address the main user roadblocks?</li> 
                                                             <li>How can I improve the visual consistency across a large legacy codebase? </li>
                                                         </ul>
                                                 </div>
