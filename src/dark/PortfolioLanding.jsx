@@ -6,10 +6,11 @@ import TextLoop from "react-text-loop";
 import HeaderThree from "../component/header/HeaderThree";
 import FooterTwo from "../component/footer/FooterTwo";
 import TabTwo from "../elements/tab/TabTwo";
-import ContactThree from "../elements/contact/ContactThree";
+// import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import ServiceList from "../elements/service/ServiceList";
 import BlogContent from "../elements/blog/BlogContent";
+import Testimonials from "../elements/Testimonial"
 
 const SlideList = [
     {
@@ -22,7 +23,7 @@ const SlideList = [
 ]
 const PortfolioLanding = () => {
     let title = 'About Me',
-        description = 'I am a UI/UX designer with professional full-stack engineering experience, which make my designs maintainable, evidence-based, and accessible. My non-traditional path into the tech industry provides me with interdisciplinary insights when designing for all types of people. ';
+        description = 'I am a UI/UX designer with professional full-stack engineering experience, which makes my designs maintainable, evidence-based, and accessible. My non-traditional path into the tech industry provides me with interdisciplinary insights when designing for all types of people. ';
     const PostList = BlogContent.slice(0 , 3);
     return (
         <div className="active-dark">
@@ -100,7 +101,7 @@ const PortfolioLanding = () => {
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                                         <h2 className="title">Projects</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                        {/* <p></p> */}
                                     </div>
                                 </div>
                             </div>
@@ -128,7 +129,7 @@ const PortfolioLanding = () => {
                             <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                                     <h2 className="title">My Top Skills</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    {/* <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p> */}
                                 </div>
                             </div>
                         </div>
@@ -142,7 +143,7 @@ const PortfolioLanding = () => {
             </div>
             {/* End Service Area  */} 
 
-            
+            <Testimonials />
 
             {/* Start Blog Area */}
             {/* <div id="blog" className="fix">
@@ -190,6 +191,7 @@ const PortfolioLanding = () => {
             {/* End COntact Area */}
 
             <FooterTwo />
+
             {/* Start Back To Top */}
             <div className="backto-top">
                 <ScrollToTop showUnder={160}>

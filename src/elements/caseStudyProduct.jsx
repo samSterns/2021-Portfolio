@@ -68,10 +68,11 @@ class CaseStudyProduct extends Component{
                                                         <li>Client: <em>Start-up </em></li>
                                                         <li>Industry: <em>Solar Power / Clean Technology / Crowd Funding Platform </em></li>
                                                         <li>My Contributions: <em> UX Design, UI Design, Design System for future scalability </em></li>
-                                                        <li>Project Overview: <em> Design a Platform _______</em></li>
+                                                        <li>Project Overview: <em> Design a platform for community member to fund solar projects.</em></li>
                                                     </ul>
                                                     <h4 className="title">The Problem</h4>
-                                                        <p>____ </p>
+                                                        <p>Solar and other clean tech projects need investors in order to create a larger impact. Other infrastructure industries like real estate have investment platforms, but more and more people want to make sure their money has a positive impact. These energy conscious users want to fund specific products, because research shows that people respond better to a specific story rather than general statistics. They want a platform where they know where their money is going. </p>
+                                                    <h4 className="title">Questions</h4>
                                                         <ul className="liststyle">
                                                             <li>How can I create a modular component library based off of ReactBootstrap? </li>
                                                             <li>How can make a seamless investment flow while directing user's to our business partner's site?</li> 
@@ -140,7 +141,7 @@ class CaseStudyProduct extends Component{
                                             </div>
                                             <div className="col-lg-6 col-12 order-1 order-lg-2">
                                                 <div className="thumb position-relative">
-                                                    <img className="w-100" src="/assets/images/service/service-30.svg" alt="Service Images"/>
+                                                    <img className="w-100" src="/assets/images/service/service-30.jpg" alt="Service Images"/>
                                                    
                                                     
                                                 </div>
@@ -160,13 +161,15 @@ class CaseStudyProduct extends Component{
                                                  
                                                     <h4 className="title">Self-reflection:</h4>
                                                    <p>Looking back on your day, sprint, and project is an insightful tool that invites you to learn from your mistakes and do better next time.</p>
+                                                            <h3>What I can do better next time: Better Visual Quality</h3>
                                                     <ul className="liststyle">
                                                         <li>
-                                                            <h3>What I can do better next time: Designing with Development in Mind</h3>
                                                             <p> The project had limitations of time and money, so it was important to develop a close relationship with the Engineering team. The fast turn around of the initial demo product was collaborative and agile. ____</p>
                                                         </li>
-                                                        <li>
+                                                    </ul>
+                                                    <ul className="liststyle">
                                                         <h3>What went well: Designing with Development in Mind</h3>
+                                                        <li>
                                                             <p> The project had limitations of time and money like most project do. It was important to develop a close relationship with the Engineering team. The fast turn around of the initial demo product was collaborative and agile. ____ My front end development experience let me hit the ground running due to my familiarity with react bootstrap. I was able to follow the existing design system while knowing when to break away from it to improve our customer experience. Situationalism is a key design skill whether it is the basic heuristics of design or the company specific branding. </p>
                                                         </li>
                                                     </ul>

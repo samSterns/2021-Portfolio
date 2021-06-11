@@ -17,17 +17,17 @@ const ServiceList = [
     {
         icon: <FaUniversalAccess />,
         title: 'Accessible Code',
-        description: 'I throw myself into the front end of the front-end. I make sure I ship accessible code. Technology can be a tool for equity.'
+        description: 'I throw myself into the front end of the front-end. I make sure I ship accessible code, because I believe technology can be a tool for equity.'
     },
     { 
         icon: <FaReact />,
         title: 'UI Development',
-        description: 'I can implement my designs in JavaScript, React, and CSS/Sass. With full-stack experience, I specialize in creating em perfect UIs(get it, em not pixels)'
+        description: 'I can implement my designs in JavaScript, React, and CSS/Sass. With full-stack experience, I specialize in creating em perfect UIs (Get it, em not pixels).'
     },
     {
         icon: <FaCogs />,
         title: 'Design Systems',
-        description: 'Following them. Creating them. Documenting them. Auditing them.'
+        description: 'Following them. Creating them. Documenting them. Auditing them. Daydreaming about them.'
     },
     { 
         icon: <FaEgg />,
