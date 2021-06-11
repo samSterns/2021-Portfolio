@@ -15,9 +15,9 @@ const PortfolioListContent = [
     },
     {
         image: 'image-3',
-        category: 'UI & UX Design',
+        category: ' Most Recent UI & UX Design',
         file: 'caseStudyProduct',
-        title: 'Product Case Study'
+        title: 'Product Design Case Study'
     }
 ]
 

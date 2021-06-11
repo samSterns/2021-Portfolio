@@ -81,7 +81,7 @@ class HeaderThree extends Component{
                                 <li><a href="#about">About</a></li>
                                 <li><a href="#portfolio">Portfolio</a></li>
                                 <li><a href="#service">Skills</a></li>
-                                <li><a href="#testimonial">Testimonial</a></li>
+                                <li><a href="#testimonial">Testimonials</a></li>
                                 {/* <li><a href="#contact">Contact</a></li> */}
                             </Scrollspy>
                         </nav>
