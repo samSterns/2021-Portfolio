@@ -63,7 +63,7 @@ import PricingTable from "./blocks/PricingTable";
 
 import { BrowserRouter, Switch, Route  } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
-import caseStudyProduct from './elements/caseStudyProduct';
+// import caseStudyProduct from './elements/caseStudyProduct';
 
 
 class Root extends Component{

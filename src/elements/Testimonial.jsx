@@ -10,10 +10,12 @@ class Testimonial extends Component{
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
                                     <div className="inner">
-                                        <p>Aklima The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
+                                        <p>Sam is a tenacious human who takes on their work with an open mind! Their creative thinking is a real asset to any organization. As Sam's mentor, I have seen and heard first hand about how they approach projects, their adaptability and most importantly, their humility in willing to learn about an organization's true north and approach to coding and accessible design. I look forward to seeing Sam's career flourish.</p>
                                     </div>
                                     <div className="author-info">
-                                        <h6><span>Aklima </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
+                                        <h6><span>Hazel Valdez </span> - Associate Director, Oregon Bioscience Association and PDXWIT Ambassador
+</h6>
+
                                     </div>
                                 </div>
                             </TabPanel>
