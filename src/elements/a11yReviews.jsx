@@ -92,7 +92,7 @@ class a11yReviews extends Component{
                                                         <ul>
                                                             <li>How can we improve the experience for people with disabilities when reading or listening to reviews? </li>
                                                             <li> How can we gather informative reviews?</li> 
-                                                            <li>How can we improve searching through reviews to find specific accessability topics?</li>
+                                                            <li>How can we improve searching through reviews to find specific accessibility topics?</li>
                                                         </ul>
                                                 </div>
                                             </div>
@@ -186,7 +186,7 @@ class a11yReviews extends Component{
                                                     <li>The advanced search option allows users to tailor results for their needs, the technology used, and the app name or keyword, which is unique to this app. Other review websites only let you filter by most popular, highly rated, ect. With a narrower search result a person with a screen reader has less irrelevant information to listen to.</li>
                                                     
                                                     </ul>
-                                                    {/* <h5> Provide accessability specific search results</h5>
+                                                    {/* <h5> Provide accessibility specific search results</h5>
                                                     <ul className="liststyle">
                                                     <li>The post a review questionnaire struck a balance between gathering useful data while not overwhelming the user. </li>
                                                     
@@ -217,7 +217,7 @@ class a11yReviews extends Component{
                                                         <p> Through research and interviews I learned a lot more about screen readers and other assistive devices. The deep dive into our user's experience gave me a greater sense of empathy and renewed my passion for creating inclusive technology. </p>
                                                 
                                                     <h3>Collaborating with a team of designers</h3>
-                                                        <p> We currently implementing and testing our designs. It is amazing to work on a team of people who self selected to do a project around accessability. The collaboration across the country has taught me about the process of iteration and critique. We have struck a balance between convergent collaboration and divergent autonomous work.</p>
+                                                        <p> We currently implementing and testing our designs. It is amazing to work on a team of people who self selected to do a project around accessibility. The collaboration across the country has taught me about the process of iteration and critique. We have struck a balance between convergent collaboration and divergent autonomous work.</p>
                                                 </div>
                                             </div>
                                         </div>

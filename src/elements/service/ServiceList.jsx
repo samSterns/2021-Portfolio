@@ -27,7 +27,7 @@ const ServiceList = [
     {
         icon: <FaCogs />,
         title: 'Design Systems',
-        description: 'Following them. Creating them. Documenting them. Auditing them. Daydreaming about them.'
+        description: 'Researching them. Following them. Creating them. Documenting them. Auditing them. Daydreaming about them.'
     },
     { 
         icon: <FaEgg />,

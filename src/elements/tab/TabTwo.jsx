@@ -26,7 +26,7 @@ class TabsTwo extends Component{
                                         <div className="single-tab-content">
                                             <ul>
                                                 <li>
-                                                    <a href="/service">UX and UI <span> - Product Designer</span></a>
+                                                    <a href="/service">UX and UI Design<span> - Product Designer</span></a>
                                                     End to end: research to mockups to prototypes
                                                 </li>
                                                 <li>
@@ -34,8 +34,8 @@ class TabsTwo extends Component{
                                                     I actually like CSS
                                                 </li>
                                                 <li>
-                                                    <a href="/service">Accessability Audits <span> - Designer and Coder</span></a>
-                                                    Audit legacy codebases and design solutions to improve accessability. 
+                                                    <a href="/service">Accessibility Audits <span> - Designer and Coder</span></a>
+                                                    Audit legacy codebase and design solutions to improve accessibility. 
                                                 </li>
                                             </ul>
                                         </div>
@@ -45,7 +45,7 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">UI/UX Designer and Accessability Consultant<span> - Sustainabilist</span></a> DEC 2020 - Current
+                                                   <a href="/service">UI/UX Designer and Accessibility Consultant<span> - Sustainabilist</span></a> DEC 2020 - Current
                                                </li>
                                                <li>
                                                    <a href="/service">UI/UX Design<span> - Accessifiers Nonprofit</span></a> NOV 2020 - MAY 2021
@@ -67,10 +67,10 @@ class TabsTwo extends Component{
                                                    <a href="/service">BA in Interdisciplinary Studies of Social Research<span> - The University of California  Berkeley </span></a> MAY 2017
                                                </li>
                                                <li>
-                                                   <a href="/service">Full-stack Engineering Program<span> - Alchemy Code Lab</span></a> MAR 2020
+                                                   <a href="/service">Full-stack Engineering Program<span> - Alchemy Code Lab</span></a> MARCH 2020
                                                </li>
                                                <li>
-                                                   <a href="/service">Design Thinking<span> - Udemy </span></a> DEC 2020
+                                                   <a href="/service">Design Thinking<span> - Udemy </span></a> DECEMBER 2020
                                                </li>
                                            </ul>
                                        </div>

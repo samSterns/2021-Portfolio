@@ -123,7 +123,7 @@ class CaseStudyProduct extends Component{
                                                             <li> Only two card sizes </li>
                                                             <li> The mobile project card doubles as both the small desktop project card and the portfolio card</li>
                                                             <li> The <em>mobile-first design process</em> allowed us to feed two birds with one scone. We had a mobile and desktop card, so when the desktop version needed smaller cards for the portfolio page, we reused the mobile card component</li> 
-                                                            <li>For the admin portal, we reused the card but replaced the learn more with and edit button</li>
+                                                            <li>For the admin portal, we reused the card again but replaced the learn more link with and edit button</li>
                                                         </ul>
                                                 </div>
                                             </div>

@@ -5,13 +5,13 @@ const PortfolioListContent = [
         image: 'image-1',
         category: 'UI & UX Design',
         file: 'a11yReview',
-        title: 'Accessability Reviews'
+        title: 'Accessibility Reviews'
     },
     {
         image: 'image-2',
         category: 'Design & Development',
         file: 'a11yAudit',
-        title: 'Accessability Audit'
+        title: 'Accessibility Audit'
     },
     {
         image: 'image-3',

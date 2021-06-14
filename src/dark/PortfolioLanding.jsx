@@ -48,7 +48,7 @@ const PortfolioLanding = () => {
                                                 <span> A11y Advocate</span>
                                             </TextLoop>{" "}
                                             </h1>
-                                            <h2>in the Pacific North West.</h2>
+                                            <h2>in the Pacific Northwest.</h2>
                                             {value.description ? <p className="description">{value.description}</p> : ''}
                                             {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-primary-color" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''}
                                         </div>

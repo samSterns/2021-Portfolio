@@ -36,7 +36,7 @@ class AllyAudit extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Accessability Audit</h2>
+                                    <h2 className="title theme-gradient">Accessibility Audit</h2>
                                     <p>Audit of a Design System and Legacy Codebase</p>
                                 </div>
                             </div>
@@ -67,10 +67,10 @@ class AllyAudit extends Component{
                                                         <li>Client: <em>Start-up w/ Enterprise Client</em></li>
                                                         <li>Industry: <em>Solar Power / Clean Technology </em></li>
                                                         <li>My Contributions: <em> UX Design, Multidimensional Accessibility Audit, Code Revisions, Design System Documentation </em></li>
-                                                        <li>Project Overview: <em> Improve workflows for solar installers and contractors while improving accessability.</em></li>
+                                                        <li>Project Overview: <em> Improve workflows for solar installers and contractors while improving accessibility.</em></li>
                                                     </ul>
                                                     <h4 className="title">The Problem</h4>
-                                                        <p>Fix the legacy code accessability issues and improve the usability of the UI </p>
+                                                        <p>Fix the legacy code accessibility issues and improve the usability of the UI </p>
                                                         <ul className="liststyle">
                                                             <li>How can I meet the WCAG AA standards? </li>
                                                             <li>How can address tha main user roadblocks?</li> 

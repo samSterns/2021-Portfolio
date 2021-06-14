@@ -10,10 +10,10 @@ class Testimonial extends Component{
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
                                     <div className="inner">
-                                        <p>Sam is a tenacious human who takes on their work with an open mind! Their creative thinking is a real asset to any organization. As Sam's mentor, I have seen and heard first hand about how they approach projects, their adaptability and most importantly, their humility in willing to learn about an organization's true north and approach to coding and accessible design. I look forward to seeing Sam's career flourish.</p>
+                                        <p>Sam is a tenacious human who takes on their work with an open mind! Their creative thinking is a real asset to any organization. As Sam's mentor, I have seen and heard first hand about how they approach projects, their adaptability and most importantly, their humility in willing to learn about an organization's true north and approach to coding and accessible design.</p>
                                     </div>
                                     <div className="author-info">
-                                        <h6><span>Hazel Valdez </span> - Associate Director, Oregon Bioscience Association and PDXWIT Ambassador
+                                        <h6><span>Hazel Valdez </span> - Associate Director, Oregon Bioscience Association and <em>PDX Women In Tech Ambassador</em>
 </h6>
 
                                     </div>
@@ -98,7 +98,7 @@ class Testimonial extends Component{
                                 <Tab>
                                     <div className="testimonial-thumbnai">
                                         <div className="thumb">
-                                            <img src="/assets/images/client/testimonial-1.jpg" alt="Testimonial Images"/>
+                                            <img src="/assets/images/client/testimonial-1.jpeg" alt="Testimonial Images"/>
                                         </div>
                                     </div>
                                 </Tab>

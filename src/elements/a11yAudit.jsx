@@ -37,7 +37,7 @@ class AllyAudit extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Accessability Audit</h2>
+                                    <h2 className="title theme-gradient">Accessibility Audit</h2>
                                     <p>Audit of a Design System and Legacy Codebase</p>
                                 </div>
                             </div>
@@ -66,12 +66,12 @@ class AllyAudit extends Component{
                                                     <ul className="liststyle">
                                                         <li>My role: <em>UX Engineer</em></li>
                                                         <li>Client: <em>Start-up w/ Enterprise Client</em></li>
-                                                        <li>Industry: <em>Solar Power / Clean Technology </em></li>
-                                                        <li>My Contributions: <em> UX Design, Multidimensional Accessibility Audit, Code Revisions, Design System Documentation </em></li>
-                                                        <li>Project Overview: <em> Improve workflows for solar installers and contractors while improving accessability.</em></li>
+                                                        <li>Industry: <em>Solar Power / Construction / Clean Technology</em></li>
+                                                        <li>My Contributions: <em>UX Design, Multidimensional Accessibility Audit, Code Revisions, Design System Documentation</em></li>
+                                                        <li>Project Overview: <em>Improve workflows for solar installers and contractors while improving accessibility.</em></li>
                                                     </ul>
                                                     <h4 className="title">The Problem</h4>
-                                                        <p>Fix the legacy code accessability issues and improve the usability of the UI </p>
+                                                        <p>Fix the legacy code accessibility issues and improve the usability of the UI </p>
                                                         <ul className="liststyle">
                                                             <li>How can I meet the WCAG AA standards? </li>
                                                             <li>How can address the main user roadblocks?</li> 
@@ -164,7 +164,7 @@ class AllyAudit extends Component{
                                                         <li>
                                                             <h3>Multidimensional Accessibility Audit</h3>
                                                             <p>I learned how to document a technical audit while using a technique I learned at the Deque Axe Conference. The prioritization method let me break down the work into vertical slices while accomplishing the most important tasks first. I used my developer experience to understand the impact and expense of each solution.</p>
-                                                            <a href="https://noti.st/davatron5000/MiKgzk" alt="learn more about multidimensional audits" target="_blank"> Learn More </a> 
+                                                            <a style={{color: "blue"}} href="https://noti.st/davatron5000/MiKgzk" alt="learn more about multidimensional audits" target="_blank"> Learn More </a> 
                                                         </li>
                                                         <li>
                                                             <h3>Collaborating with a Team of Engineers</h3>
@@ -239,7 +239,7 @@ export default AllyAudit;
 //                         <div className="row">
 //                             <div className="col-lg-12">
 //                                 <div className="rn-page-title text-center pt--100">
-//                                     <h2 className="title theme-gradient">Accessability Audit</h2>
+//                                     <h2 className="title theme-gradient">Accessibility Audit</h2>
 //                                     <p>Audit of a Design System and Legacy Codebase</p>
 //                                 </div>
 //                             </div>
@@ -269,11 +269,11 @@ export default AllyAudit;
 //                                                         <li>My role: <em>UX Engineer</em></li>
 //                                                         <li>Client: <em>Start-up w/ Enterprise Client</em></li>
 //                                                         <li>Industry: <em>Solar Energy</em></li>
-//                                                         <li>My Contributions: <em> UX Design, Multi-dimensional Accessability Audit, Code Revisions, Design System Documentation </em></li>
-//                                                         <li>Project Overview: <em> UX Design, Multi-dimensional Accessability Audit, Code Revisions, Design System Documentation </em></li>
+//                                                         <li>My Contributions: <em> UX Design, Multi-dimensional Accessibility Audit, Code Revisions, Design System Documentation </em></li>
+//                                                         <li>Project Overview: <em> UX Design, Multi-dimensional Accessibility Audit, Code Revisions, Design System Documentation </em></li>
 //                                                     </ul>
 //                                                     <h4 className="title">The Problem</h4>
-//                                                         <p>Legacy code had accessability issues and the usability of the UI needed improvement </p>
+//                                                         <p>Legacy code had accessibility issues and the usability of the UI needed improvement </p>
 //                                                         <ul>
 //                                                             <li>How can I meet the WCAG AA standards </li>
 //                                                             <li> How can address tha main user roadblocks?</li> 
@@ -326,7 +326,7 @@ export default AllyAudit;
 //                                                         <ul>
 //                                                             <li>How can we improve the experience for people with disabilities when reading or listening to reviews? </li>
 //                                                             <li> How can we gather informative reviews?</li> 
-//                                                             <li>How can we improve searching through reviews to find specific accessability topics?</li>
+//                                                             <li>How can we improve searching through reviews to find specific accessibility topics?</li>
 //                                                         </ul>
 //                                                 </div>
 //                                             </div>
@@ -371,7 +371,7 @@ export default AllyAudit;
 //                                                         <p> Through research and interviews I learned a lot more about screen readers and other assistive devices. The deep dive into our user's experience gave me a greater sense of empathy and renewed my passion for creating inclusive technology. </p>
                                                 
 //                                                     <h3>Collaborating with a team of designers</h3>
-//                                                         <p> We currently implementing and testing our designs. It is amazing to work on a team of people who self selected to do a project around accessability. The collaboration across the country has taught me about the process of iteration and critique. We have struck a balance between convergent collaboration and divergent autonomous work.</p>
+//                                                         <p> We currently implementing and testing our designs. It is amazing to work on a team of people who self selected to do a project around accessibility. The collaboration across the country has taught me about the process of iteration and critique. We have struck a balance between convergent collaboration and divergent autonomous work.</p>
 //                                                 </div>
 //                                             </div>
 //                                         </div>
