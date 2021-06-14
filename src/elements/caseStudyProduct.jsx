@@ -1,12 +1,8 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
-import ModalVideo from 'react-modal-video';
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/HeaderCaseStudy";
-// import Pic from "../../public/assets/images/se/solarPic.jpg";
-
-
 
 class CaseStudyProduct extends Component{
     constructor () {
@@ -187,7 +183,7 @@ class CaseStudyProduct extends Component{
                                         
                                                     <h4 className="title">Process </h4>
                                                     <h5>Collaborating with Designers</h5>
-                                                    <p>Below is a low-fidelity vs. high-fidelity wireframes of the portfolio page. As you can see the low-fidelity mockup uses a smaller card format. This page was refactored because we wanted to limit the number of components we needed to build. The smaller cards also do not have enough negative space to be visually pleasing. By choosing to use the mobile version we made the components more modular and increase the visual appeal by improving the Gestalt principle of proximity. </p>
+                                                    <p>Below is a low-fidelity vs. high-fidelity wireframes of the portfolio page. As you can see the low-fidelity mockup uses a smaller card format. This page was refactored because we wanted to limit the number of components we needed to build. The smaller cards also do not have enough negative space to be visually pleasing. By choosing to use the mobile version we made the components more modular and increase the visual appeal by improving the Gestalt principle of proximity.</p>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12 order-1 order-lg-2" >
