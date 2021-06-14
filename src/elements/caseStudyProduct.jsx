@@ -71,7 +71,7 @@ class CaseStudyProduct extends Component{
                                                         <li>Project Overview: <em> Design a platform for community member to fund solar projects.</em></li>
                                                     </ul>
                                                     <h4 className="title">The Problem</h4>
-                                                        <p>Solar and other clean tech projects need investors in order to create a larger impact. Other infrastructure industries like real estate have investment platforms, but more and more people want to make sure their money has a positive impact. These energy conscious users want to fund specific products, because research shows that people respond better to a specific story rather than general statistics. They want a platform where they know their money is contributing to social good. </p>
+                                                        <p>Solar and other clean tech projects need investors in order to create a larger impact. Other infrastructure industries like real estate have investment platforms, but more and more people want to make sure their money has a positive impact. These energy conscious users want to fund specific products, because research shows that people respond better to a specific story rather than general problem. They want a platform where they know their money is contributing to social good. </p>
                                                    
                                                 </div>
                                             </div>
@@ -91,7 +91,9 @@ class CaseStudyProduct extends Component{
                                                     <h4 className="title">Process Overview</h4>
                                                     <ul className="liststyle">
                                                         <li><em>Research: </em>Studied companies with a similar product in different industries</li>
-                                                        <li><em>Brainstorm: </em>Worked with a team of designers on site maps, empathy maps and wireframes</li>
+                                                        <li><em>Brainstormed With: </em> A team of designers on site maps, empathy maps and wireframes; The marketing team on branding, the logo, and color palettes; The engineers to discuss possible design systems</li>
+                                                            
+                                                        
                                                         <li><em>Build: </em>Prototyped solutions in <em>Figma</em></li>
                                                         <li><em>Test: </em>Presented the prototyped solutions to stakeholders</li>
                                                         <li><em>Iterate: </em>Refined designs based on stakeholder's feedback</li>
@@ -185,19 +187,19 @@ class CaseStudyProduct extends Component{
                                         
                                                     <h4 className="title">Process </h4>
                                                     <h5>Collaborating with Designers</h5>
-                                                    <p>Below is a before and after screenshot of the portfolio page. As you can see the before picture uses a smaller card format. This page was refactored because we wanted to limit the number of components we needed to build. The smaller cards also do not have enough negative space to be visually pleasing. By choosing to use the mobile version we made the components more modular and increase the visual appeal by improving the Gestalt principle of proximity. </p>
+                                                    <p>Below is a low-fidelity vs. high-fidelity wireframes of the portfolio page. As you can see the low-fidelity mockup uses a smaller card format. This page was refactored because we wanted to limit the number of components we needed to build. The smaller cards also do not have enough negative space to be visually pleasing. By choosing to use the mobile version we made the components more modular and increase the visual appeal by improving the Gestalt principle of proximity. </p>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-6 col-12 order-1 order-lg-2" style={{padding: '1em'}}>
+                                            <div className="col-lg-6 col-12 order-1 order-lg-2" >
                                                 <div className="thumb position-relative">
-                                                   <p>Before</p>
+                                                   <p>Low-fidelity</p>
                                                     <img className="w-100" src="/assets/images/service/service-32.jpg" alt="Service Images"/>
                                                     
                                                 </div>
                                             </div>
-                                            <div className="col-lg-6 col-12 order-1 order-lg-2" style={{padding: '1em'}}>
+                                            <div className="col-lg-6 col-12 order-1 order-lg-2" style={{padding: '3em'}}>
                                                 <div className="thumb position-relative"  >
-                                                    <p>After</p>
+                                                    <p>High-fidelity</p>
                                                     <img className="w-100" src="/assets/images/service/service-33.jpg" alt="Service Images" />
                                                 </div>
                                             </div>

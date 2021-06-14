@@ -5,7 +5,7 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/HeaderCaseStudy";
 import Counter from "../elements/counters/CounterOne"
-import Footer from "../component/footer/FooterTwo";
+
 // import Pic from "../../public/assets/images/service/solarPic.jpg";
 
 
@@ -22,7 +22,7 @@ class a11yReviews extends Component{
     }
     render(){
         return(
-            <React.Fragment>
+            <React.Fragment >
                 
                 {/* Start Pagehelmet  */}
                 <PageHelmet pageTitle='A11y Reviews Case Study' />
