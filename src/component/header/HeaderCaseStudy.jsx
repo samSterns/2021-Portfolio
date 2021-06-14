@@ -71,20 +71,12 @@ class HeaderCaseStudy extends Component{
                 <div className="header-wrapper">
                     <div className="header-left d-flex align-items-center">
                         <div className="logo"> 
-                            <a href="/">
+                            <a href="/#portfolio">
                                 <img src={logo} style={{width: '50px', height: '50px', padding: '.5em'}}/>
                                 
                             </a>
                         </div>
-                        {/* <nav className="mainmenunav d-lg-block ml--50">
-                            <Scrollspy className="mainmenu" items={['home','about','service','portfolio','blog','contact']} currentClassName="is-current" offset={-200}>
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#service">Skills</a></li>
-                                <li><a href="#portfolio">Portfolio</a></li>
-                                {/* <li><a href="#contact">Contact</a></li> */}
-                            {/* </Scrollspy>
-                        </nav>  */}
+                   
                     </div>
                     <div className="header-right">
                         <div className="social-share-inner">

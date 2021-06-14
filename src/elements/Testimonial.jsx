@@ -1,16 +1,21 @@
 import React, { Component } from "react";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import Helmet from "../component/common/Helmet";
+
 class Testimonial extends Component{
     render(){
+        
         return(
             <React.Fragment>
+                <Helmet pageTitle="testimonials" />
+                
                 <div className="row">
                     <div className="col-lg-12">
                         <Tabs>
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
                                     <div className="inner">
-                                        <p>Sam is a tenacious human who takes on their work with an open mind! Their creative thinking is a real asset to any organization. As Sam's mentor, I have seen and heard first hand about how they approach projects, their adaptability and most importantly, their humility in willing to learn about an organization's true north and approach to coding and accessible design.</p>
+                                        <p>"Sam is a tenacious human who takes on their work with an open mind! Their creative thinking is a real asset to any organization. As Sam's mentor, I have seen and heard first hand about how they approach projects, their adaptability and most importantly, their humility in willing to learn about an organization's true north and approach to coding and accessible design."</p>
                                     </div>
                                     <div className="author-info">
                                         <h6><span>Hazel Valdez </span> - Associate Director, Oregon Bioscience Association and <em>PDX Women In Tech Ambassador</em>

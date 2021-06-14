@@ -217,7 +217,7 @@ class a11yReviews extends Component{
                                                         <p> Through research and interviews I learned a lot more about screen readers and other assistive devices. The deep dive into our user's experience gave me a greater sense of empathy and renewed my passion for creating inclusive technology. </p>
                                                 
                                                     <h3>Collaborating with a team of designers</h3>
-                                                        <p> We currently implementing and testing our designs. It is amazing to work on a team of people who self selected to do a project around accessibility. The collaboration across the country has taught me about the process of iteration and critique. We have struck a balance between convergent collaboration and divergent autonomous work.</p>
+                                                        <p> We are currently implementing and testing our designs. It is amazing to work on a team of people who have self selected to do a project around accessibility. The collaboration across the country has taught me about the process of iteration and critique. We have struck a balance between convergent collaboration and divergent autonomous work.</p>
                                                 </div>
                                             </div>
                                         </div>

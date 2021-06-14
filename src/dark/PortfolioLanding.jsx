@@ -8,7 +8,7 @@ import FooterTwo from "../component/footer/FooterTwo";
 import TabTwo from "../elements/tab/TabTwo";
 // import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
-import ServiceList from "../elements/service/ServiceList";
+import Skills from "../elements/service/ServiceList";
 import BlogContent from "../elements/blog/BlogContent";
 import Testimonials from "../elements/Testimonial"
 
@@ -122,7 +122,7 @@ const PortfolioLanding = () => {
             {/* End Portfolio Area */}
 
             {/* Start Service Area  */}
-            <div id="service" className="fix">
+            <div id="skills" className="fix">
                 <div className="service-area creative-service-wrapper ptb--120 bg_color--5" >
                     <div className="container">
                         <div className="row">
@@ -135,7 +135,7 @@ const PortfolioLanding = () => {
                         </div>
                         <div className="row creative-service">
                             <div className="col-lg-12">
-                                <ServiceList item="6" column="col-lg-4 col-md-6 col-sm-6 col-12 text-left" />
+                                <Skills item="6" column="col-lg-4 col-md-6 col-sm-6 col-12 text-left" />
                             </div>
                         </div>
                     </div>
@@ -143,7 +143,28 @@ const PortfolioLanding = () => {
             </div>
             {/* End Service Area  */} 
 
-            <Testimonials />
+            {/* Start testimonials Area  */}
+            <div id="testimonials" className="fix">
+                            <div className="testimonials-area creative-testimonials-wrapper ptb--120 bg_color--5" >
+                                <div className="container">
+                                    <div className="row">
+                                        <div className="col-lg-12">
+                                            <div className="section-title text-center testimonials-style--3 mb--30 mb_sm--0">
+                                                <h2 className="title">Testimonials</h2>
+                                                {/* <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="row creative-testimonials">
+                                        <div className="col-lg-12">
+                                            <Testimonials item="6" column="col-lg-4 col-md-6 col-sm-6 col-12 text-left" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                        {/* End testimonials Area  */} 
+           
 
             {/* Start Blog Area */}
             {/* <div id="blog" className="fix">

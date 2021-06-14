@@ -168,8 +168,9 @@ class CaseStudyProduct extends Component{
                                                     <h5>Peripheral Vision</h5>
                                                         <ul className="liststyle">
                                                             <li> The lengthy onboarding process could improve the visual appeal by adding illustration to the page.</li>
-                                                            <li> I chose the placement of the illustration because <u>In 100 Things Every Designer Need to Know about People</u> by Susan M Weinschenk Ph.D. says, "If you have images of an emotional nature, out them in the periphery instead of the middle." </li>
+                                                            <li> I chose the placement of the illustration because Susan M Weinschenk Ph.D. says in <u>100 Things Every Designer Need to Know about People</u>, "If you have images of an emotional nature, out them in the periphery instead of the middle." </li>
                                                             <li> I chose a stationary image because Weinschenk goes onto say, "If you want users to concentrate on a certain part of the screen, don't put animation or blinking elements in their peripheral vision." In addition, WCAG 2.2.2 recommends, "Moving, blinking, scrolling: For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it."</li> 
+                                                            <li>The direction of the image is also intentional to follow the Gestalt Principle's Law of Continuity by directing the user's eye toward the call to action button.</li>
                                                             <li>Illustration credit <a href="https://www.istockphoto.com/portfolio/invincible_bulldog?mediatype=illustration">invincible_bulldog</a> </li>
                                                         </ul>
                                                 </div>
@@ -184,7 +185,7 @@ class CaseStudyProduct extends Component{
                                         
                                                     <h4 className="title">Process </h4>
                                                     <h5>Collaborating with Designers</h5>
-                                                    <p>Below is a before and after screenshot of the portfolio page. As you can see the before picture uses a smaller card format. This page was refactored because we wanted to limit the number of components we needed to build. The smaller cards also do not have enough negative space to be visually pleasing. By choosing to use the mobile version we made the components more modular and increase the visual appeal by improving the Gestalt principal of proximity. </p>
+                                                    <p>Below is a before and after screenshot of the portfolio page. As you can see the before picture uses a smaller card format. This page was refactored because we wanted to limit the number of components we needed to build. The smaller cards also do not have enough negative space to be visually pleasing. By choosing to use the mobile version we made the components more modular and increase the visual appeal by improving the Gestalt principle of proximity. </p>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12 order-1 order-lg-2" style={{padding: '1em'}}>
@@ -225,7 +226,7 @@ class CaseStudyProduct extends Component{
                                                     <ul className="liststyle">
                                                         <h3>What went well: Designing with Development in Mind</h3>
                                                         <li>
-                                                            <p> The project had limitations of time and money like most projects do. It was important to develop a close relationship with the Engineering team to understand the possibilities. The fast turn around of the initial demo product was collaborative and agile. My front end development experience let me hit the ground running due to my familiarity with React Bootstrap. I was able to follow the existing design system while knowing when to break away from it to improve our customer's experience. Situationalism is a key design skill whether it is the basic heuristics of design or the company specific branding. </p>
+                                                            <p> The project had limitations of time and money like most projects do. It was important to develop a close relationship with the engineering team to understand the possibilities. The fast turn around of the initial demo product was collaborative and agile. My front end development experience let me hit the ground running due to my familiarity with React Bootstrap. I was able to follow the existing design system while knowing when to break away from it to improve our customer's experience. Situationism is a key design skill whether it is the basic heuristics of design or the company specific branding. </p>
                                                         </li>
                                                     </ul>
                                                         

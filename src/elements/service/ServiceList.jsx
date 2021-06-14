@@ -1,7 +1,7 @@
 import React ,{ Component }from "react";
 import { GiUnicorn } from "react-icons/gi";
 import { FaSearch, FaUniversalAccess, FaCogs, FaEgg, FaReact } from "react-icons/fa";
-
+import Helmet from "../../component/common/Helmet";
 
 const ServiceList = [
     {
@@ -37,13 +37,14 @@ const ServiceList = [
 ]
 
 
-class ServiceThree extends Component{
+class Skills extends Component{
     render(){
         const {column } = this.props;
         const ServiceContent = ServiceList.slice(0 , this.props.item);
         
         return(
             <React.Fragment>
+                <Helmet pageTitle="skills" />
                 <div className="row">
                     {ServiceContent.map( (val , i) => (
                         <div className={`${column}`} key={i}>
@@ -65,4 +66,4 @@ class ServiceThree extends Component{
         )
     }
 }
-export default ServiceThree;
+export default Skills;
