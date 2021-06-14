@@ -5,19 +5,19 @@ const PortfolioListContent = [
         image: 'image-1',
         category: 'UI & UX Design',
         file: 'a11yReview',
-        title: 'Accessability Reviews'
+        title: 'Accessibility'
     },
     {
         image: 'image-2',
         category: 'Design & Development',
         file: 'a11yAudit',
-        title: 'Accessability Audit'
+        title: 'Accessibility Audit'
     },
     {
         image: 'image-3',
-        category: 'UI Development',
-        file: 'TBD',
-        title: 'TBD'
+        category: ' Most Recent UI & UX Design',
+        file: 'caseStudyProduct',
+        title: 'Product Design'
     }
 ]
 
@@ -38,6 +38,7 @@ class PortfolioList extends Component{
                                 <div className="inner">
                                     <p>{value.category}</p>
                                     <h4><a href="/portfolio-details">{value.title}</a></h4>
+                                    <h4>Case Study</h4>
                                     <div className="portfolio-button">
                                         <a className="rn-btn" href={value.file}>View Details</a>
                                     </div>

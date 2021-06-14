@@ -1,7 +1,7 @@
 import React ,{ Component }from "react";
 import { GiUnicorn } from "react-icons/gi";
 import { FaSearch, FaUniversalAccess, FaCogs, FaEgg, FaReact } from "react-icons/fa";
-
+import Helmet from "../../component/common/Helmet";
 
 const ServiceList = [
     {
@@ -17,17 +17,17 @@ const ServiceList = [
     {
         icon: <FaUniversalAccess />,
         title: 'Accessible Code',
-        description: 'I throw myself into the front end of the front-end. I make sure I ship accessible code. Technology can be a tool for equity.'
+        description: 'I throw myself into the front end of the front-end. I make sure I ship accessible code, because I believe technology can be a tool for equity.'
     },
     { 
         icon: <FaReact />,
         title: 'UI Development',
-        description: 'I can implement my designs in JavaScript, React, and CSS/Sass. With full-stack experience, I specialize in creating em perfect UIs(get it, em not pixels)'
+        description: 'I can implement my designs in JavaScript, React, and CSS/Sass. With full-stack experience, I specialize in creating em perfect UIs (Get it, em not pixels).'
     },
     {
         icon: <FaCogs />,
         title: 'Design Systems',
-        description: 'Following them. Creating them. Documenting them. Auditing them.'
+        description: 'Researching them. Following them. Creating them. Documenting them. Auditing them. Daydreaming about them.'
     },
     { 
         icon: <FaEgg />,
@@ -37,13 +37,14 @@ const ServiceList = [
 ]
 
 
-class ServiceThree extends Component{
+class Skills extends Component{
     render(){
         const {column } = this.props;
         const ServiceContent = ServiceList.slice(0 , this.props.item);
         
         return(
             <React.Fragment>
+                <Helmet pageTitle="skills" />
                 <div className="row">
                     {ServiceContent.map( (val , i) => (
                         <div className={`${column}`} key={i}>
@@ -65,4 +66,4 @@ class ServiceThree extends Component{
         )
     }
 }
-export default ServiceThree;
+export default Skills;

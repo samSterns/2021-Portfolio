@@ -76,11 +76,12 @@ class HeaderThree extends Component{
                             </a>
                         </div> */}
                         <nav className="mainmenunav d-lg-block ml--50">
-                            <Scrollspy className="mainmenu" items={['home','about','service','portfolio','blog','contact']} currentClassName="is-current" offset={-200}>
+                            <Scrollspy className="mainmenu" items={['home','about','portfolio','skills','testimonials']} currentClassName="is-current" offset={-200}>
                                 <li><a href="#home">Home</a></li>
                                 <li><a href="#about">About</a></li>
-                                <li><a href="#service">Skills</a></li>
                                 <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#skills">Skills</a></li>
+                                <li><a href="#testimonials">Testimonials</a></li>
                                 {/* <li><a href="#contact">Contact</a></li> */}
                             </Scrollspy>
                         </nav>
@@ -89,7 +90,7 @@ class HeaderThree extends Component{
                         <div className="social-share-inner">
                             <ul className="social-share social-style--2 color-black d-flex justify-content-start liststyle">
                                 {SocialShare.map((val , i) => (
-                                    <li key={i}><a target="_blank" href={`${val.link}`}>{val.Social}</a></li>
+                                    <li key={i}><a target="_blank" rel="noopener noreferrer" href={`${val.link}`}>{val.Social}</a></li>
                                 ))}
                             </ul>
                         </div>
