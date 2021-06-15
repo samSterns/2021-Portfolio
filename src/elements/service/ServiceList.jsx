@@ -22,7 +22,7 @@ const ServiceList = [
     { 
         icon: <FaReact />,
         title: 'UI Development',
-        description: 'I can implement my designs in JavaScript, React, and CSS/Sass. With full-stack experience, I specialize in creating em perfect UIs (Get it, em not pixels).'
+        description: 'I can implement my designs in JavaScript, React, and CSS/Sass. With full-stack experience, I specialize in creating em perfect UIs (Get it, em not pixels :) ).'
     },
     {
         icon: <FaCogs />,

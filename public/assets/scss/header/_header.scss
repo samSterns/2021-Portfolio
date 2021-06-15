@@ -47,7 +47,7 @@
             &.rn-btn {
                 &.theme-color {
                     border-color: $theme-color;
-                    color: $theme-color;
+                    color: $theme-color-dark;
                 }
                 padding: 0 25px;
                 height: 46px;
@@ -77,7 +77,7 @@
                     border-color: transparent;
                     transform: translateY(-3px);
                     color: #ffffff;
-                    border: 2px solid $theme-color;
+                    border: 2px solid $theme-color-dark;
                     background: $theme-color;
                     border-radius: 6px;
                 }
