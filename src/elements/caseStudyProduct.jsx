@@ -224,7 +224,7 @@ class CaseStudyProduct extends Component{
                                                     <ul className="liststyle">
                                                         <h3>What went well: Designing with Development in Mind</h3>
                                                         <li>
-                                                            <p> The project had limitations of time and money like most projects do. It was important to develop a close relationship with the engineering team to understand the possibilities. The fast turn around of the initial demo product was collaborative and agile. My front end development experience let me hit the ground running due to my familiarity with React Bootstrap. I was able to follow the existing design system while knowing when to break away from it to improve our customer's experience. Situationism is a key design skill whether it is the basic heuristics of design or the company specific branding. </p>
+                                                            <p> The project had limitations of time and money like most projects do. It was important to develop a close relationship with the engineering team to understand the possibilities and limitations. The fast turn around of the initial demo product was collaborative and agile. My front end development experience let me hit the ground running due to my familiarity with React Bootstrap. I was able to follow the existing design system while knowing when to break away from it to improve our customer's experience. Situationism is a key design skill whether it is the basic heuristics of design or the company specific branding. </p>
                                                         </li>
                                                     </ul>
                                                         
@@ -239,8 +239,10 @@ class CaseStudyProduct extends Component{
                             </div>
                         </div>
                     </div>
+                 
                 </div>
                 {/* End Page Wrapper */}
+
                 
                 {/* Start Back To Top */}
                 <div className="backto-top">

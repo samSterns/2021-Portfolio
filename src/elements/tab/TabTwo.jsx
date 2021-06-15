@@ -26,16 +26,16 @@ class TabsTwo extends Component{
                                         <div className="single-tab-content">
                                             <ul>
                                                 <li>
-                                                    <a href="/service">UX and UI Design<span> - Product Designer</span></a>
-                                                    End to end: research to mockups to prototypes
+                                                    UI and UX Design<span> - Product Designer<br></br></span>
+                                                    I do it all: From research to mockups to prototypes
                                                 </li>
                                                 <li>
-                                                    <a href="/service">UI Development<span> - Engineer</span></a>
+                                                    UI Development<span> - Front End Software Engineer<br></br></span>
                                                     I actually like CSS
                                                 </li>
                                                 <li>
-                                                    <a href="/service">Accessibility Audits <span> - Designer and Coder</span></a>
-                                                    Audit legacy codebase and design solutions to improve accessibility. 
+                                                    Accessibility Audits <span> - Designer and Software Developer<br></br></span>
+                                                    I audit legacy codebases and design solutions to improve accessibility. 
                                                 </li>
                                             </ul>
                                         </div>
@@ -45,16 +45,16 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">UI/UX Designer and Accessibility Consultant<span> - Sustainabilist</span></a> DEC 2020 - Current
+                                                   UI/UX Designer and Accessibility Consultant<br></br><span> - Sustainabilist</span> <br></br>DEC 2020 - Current
                                                </li>
                                                <li>
-                                                   <a href="/service">UI/UX Design<span> - Accessifiers Nonprofit</span></a> NOV 2020 - MAY 2021
+                                                   UI/UX Design<br></br><span> - Accessifiers Nonprofit </span> <br></br>NOV 2020 - MAY 2021
                                                </li>
                                                <li>
-                                                   <a href="/service">Product Designer and FE Engineer<span> - Equip ID </span></a> MAY 2020 - SEPT 2020
+                                                   Product Designer and Front End Engineer <br></br><span> - Equip ID </span> <br></br>MAY 2020 - SEPT 2020
                                                </li>
                                                <li>
-                                                   <a href="/service">UX Researcher<span> - Sustainabilist </span></a> MAY 2017 - SEPT 2020
+                                                   UX Researcher<br></br><span> - Sustainabilist </span> <br></br>MAY 2017 - SEPT 2020
                                                </li>
                                            </ul>
                                        </div>
@@ -64,13 +64,17 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">BA in Interdisciplinary Studies of Social Research<span> - The University of California  Berkeley </span></a> MAY 2017
+                                                   Design Thinking
+                                                   <p> - Udemy <br></br><span>DECEMBER 2020</span> </p> 
                                                </li>
                                                <li>
-                                                   <a href="/service">Full-stack Engineering Program<span> - Alchemy Code Lab</span></a> MARCH 2020
+                                                    Full-stack Engineering Program
+                                                   <p> - Alchemy Code Lab<br></br><span>MARCH 2020</span> </p> 
                                                </li>
                                                <li>
-                                                   <a href="/service">Design Thinking<span> - Udemy </span></a> DECEMBER 2020
+                                                   BA in Interdisciplinary Studies of Social Research <br></br>
+                                                   Graduated Magna Cum Laude
+                                                   <p> - The University of California  Berkeley <br></br><span>MAY 2017</span> </p> 
                                                </li>
                                            </ul>
                                        </div>

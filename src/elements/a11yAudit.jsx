@@ -38,7 +38,7 @@ class AllyAudit extends Component{
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
                                     <h2 className="title theme-gradient">Accessibility Audit</h2>
-                                    <p>Audit of a Design System and Legacy Codebase</p>
+                                    <p>Audit of a Design System and Legacy Codebases</p>
                                 </div>
                             </div>
                         </div>
@@ -65,7 +65,7 @@ class AllyAudit extends Component{
                                                 <h4 className="title">The Overview</h4>                   
                                                     <ul className="liststyle">
                                                         <li>My role: <em>UX Engineer</em></li>
-                                                        <li>Client: <em>Start-up w/ Enterprise Client</em></li>
+                                                        <li>Client: <em>Start-up w/ Enterprise Client: FIT-QM The Department of Energy</em></li>
                                                         <li>Industry: <em>Solar Power / Construction / Clean Technology</em></li>
                                                         <li>My Contributions: <em>UX Design, Multidimensional Accessibility Audit, Code Revisions, Design System Documentation</em></li>
                                                         <li>Project Overview: <em>Improve workflows for solar installers and contractors while improving accessibility.</em></li>
@@ -183,6 +183,13 @@ class AllyAudit extends Component{
                             </div>
                         </div>
                     </div>
+                    <div className="row">
+                    <div className="col-lg-12">
+                        <div className="view-more-btn mt--60 mt_sm--30 text-center">
+                            <a className="rn-button-style--2 btn-solid" href="/caseStudyProduct"><span>Next Project</span></a>
+                        </div>
+                    </div>
+                </div>
                 </div>
                 {/* End Page Wrapper */}
                 

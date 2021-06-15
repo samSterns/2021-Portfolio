@@ -30,6 +30,7 @@ class PortfolioList extends Component{
                 {list.map((value , index) => (
                     <div className={`${column}`} key={index}>
                         <div className={`portfolio ${styevariation}`}>
+                            <a href={value.file}>
                             <div className="thumbnail-inner">
                                 <div className={`thumbnail ${value.image}`}></div>
                                 <div className={`bg-blr-image ${value.image}`}></div>
@@ -37,13 +38,14 @@ class PortfolioList extends Component{
                             <div className="content">
                                 <div className="inner">
                                     <p>{value.category}</p>
-                                    <h4><a href="/portfolio-details">{value.title}</a></h4>
+                                    <h4>{value.title}</h4>
                                     <h4>Case Study</h4>
                                     <div className="portfolio-button">
                                         <a className="rn-btn" href={value.file}>View Details</a>
                                     </div>
                                 </div>
                             </div>
+                                </a>
                         </div>
                     </div>
                 ))}

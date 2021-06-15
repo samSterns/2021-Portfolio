@@ -71,7 +71,7 @@ class HeaderCaseStudy extends Component{
                 <div className="header-wrapper">
                     <div className="header-left d-flex align-items-center">
                         <div className="logo"> 
-                            <a href="/#portfolio">
+                            <a href="/">
                                 <img src={logo} style={{width: '50px', height: '50px', padding: '.5em'}}/>
                                 
                             </a>

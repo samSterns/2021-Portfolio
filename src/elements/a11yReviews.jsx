@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
-import ModalVideo from 'react-modal-video';
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/HeaderCaseStudy";
@@ -31,14 +30,14 @@ class a11yReviews extends Component{
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                 {/* Start Breadcrump Area */}
-                <div className="n-page-titler-area pt--120 pb--190 bg_image bg_image--6"  data-black-overlay="5">
+                <div className="n-page-titler-area pt--120 pb--190 bg_image bg_image--4"  data-black-overlay="5">
                
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
                                     <h2 className="title theme-gradient">Accessibility Reviews</h2>
-                                    <p>UX/UI Design for a disability community platform to rate digital products</p>
+                                    <p>UI/UX Design for a disability community platform to rate digital products</p>
                                 </div>
                             </div>
                         </div>
@@ -227,6 +226,13 @@ class a11yReviews extends Component{
                             </div>
                         </div>
                     </div>
+                    <div className="row">
+                    <div className="col-lg-12">
+                        <div className="view-more-btn mt--60 mt_sm--30 text-center">
+                            <a className="rn-button-style--2 btn-solid" href="/a11yAudit"><span>Next Project</span></a>
+                        </div>
+                    </div>
+                </div>
                 </div>
                 {/* End Page Wrapper */}
                 
