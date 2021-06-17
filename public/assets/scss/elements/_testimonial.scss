@@ -108,7 +108,7 @@ Testimonial Styles
         h6 {
             font-size: 18px;
             line-height: 50px;
-            color: #8c8c8c;
+            color: #797676;
             font-weight: 300;
             @media #{$sm-layout} {
                 line-height: 20px;
@@ -126,18 +126,22 @@ Testimonial Styles
 .rn-testimonial-light {
     .rn-testimonial-content {
         .inner {
+            .testimonial-link {
+                color: blue;
+            }
             p {
-                color: #c6c9d8;
+                color: #797676;
             }
         }
         .author-info {
             h6 {
                 color: #ffffff;
                 span {
-                    color: #c6c9d8;
+                    color: #797676;
                     text-transform: uppercase;
                 }
             }
+           
         }
     }
 }
