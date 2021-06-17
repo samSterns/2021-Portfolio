@@ -26,7 +26,7 @@ const PortfolioLanding = () => {
         description = 'I am a UI/UX designer with professional full-stack engineering experience, which makes my designs maintainable, evidence-based, and accessible. My innovative path into the tech industry provides me with interdisciplinary insights when designing for all types of people.';
     const PostList = BlogContent.slice(0 , 3);
     return (
-        <div className="active-dark">
+        <div >
             <Helmet pageTitle="Portfolio" />
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black"/>
