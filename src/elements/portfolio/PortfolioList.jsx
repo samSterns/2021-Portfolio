@@ -38,8 +38,8 @@ class PortfolioList extends Component{
                             <div className="content">
                                 <div className="inner">
                                     <p>{value.category}</p>
-                                    <h4>{value.title}</h4>
-                                    <h4>Case Study</h4>
+                                    <h4>{value.title} <br></br> Case Study</h4>
+                                
                                     <div className="portfolio-button">
                                         <a className="rn-btn" href={value.file}>View Details</a>
                                     </div>
