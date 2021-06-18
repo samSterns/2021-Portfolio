@@ -72,7 +72,7 @@ class HeaderCaseStudy extends Component{
                     <div className="header-left d-flex align-items-center">
                         <div className="logo"> 
                             <a href="/" alt="Link home">
-                                <img src={logo} style={{width: '50px', height: '50px', padding: '.5em'}}/>
+                                <img alt="Link home" src={logo} style={{width: '50px', height: '50px', padding: '.5em'}}/>
                                 
                             </a>
                         </div>
@@ -82,7 +82,7 @@ class HeaderCaseStudy extends Component{
                         <div className="social-share-inner">
                             <ul className="social-share  color-black d-flex justify-content-start liststyle">
                                 {SocialShare.map((val , i) => (
-                                    <li key={i}><a alt="link to social media" target="_blank" href={`${val.link}`}>{val.Social}</a></li>
+                                    <li key={i}><a alt={val.social} target="_blank" href={`${val.link}`}>{val.Social}</a></li>
                                 ))}
                             </ul>
                         </div>

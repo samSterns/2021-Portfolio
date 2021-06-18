@@ -30,7 +30,7 @@ class a11yReviews extends Component{
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                 {/* Start Breadcrump Area */}
-                <div className="n-page-titler-area pt--120 pb--190 bg_image bg_image--4"  data-black-overlay="5">
+                <div className="n-page-titler-area pt--120 pb--190 bg_image bg_image--4"  data-black-overlay="7">
                
                     <div className="container">
                         <div className="row">
@@ -56,7 +56,7 @@ class a11yReviews extends Component{
                                         <div className="row sercice-details-content pb--80 align-items-center">
                                             <div className="col-lg-6 col-12">
                                                 <div className="thumb">
-                                                    <img className="w-100" src="/assets/images/service/service-03.svg" alt="Service Images"/>
+                                                    <img className="w-100" src="/assets/images/service/service-03.svg" alt="Digital whiteboard group brainstorm of main user journey"/>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12">
@@ -79,7 +79,7 @@ class a11yReviews extends Component{
                                         <div className="row sercice-details-content pb--80 align-items-center">
                                             <div className="col-lg-6 col-12">
                                                 <div className="thumb">
-                                                    <img className="w-100" src="/assets/images/service/service-01.svg" alt="Service Images"/>
+                                                    <img className="w-100" src="/assets/images/service/service-01.svg" alt="Storyboard describing user's emotional state during their journey"/>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12">
@@ -116,7 +116,7 @@ class a11yReviews extends Component{
                                             </div>
                                             <div className="col-lg-6 col-12 order-1 order-lg-2">
                                                 <div className="thumb position-relative">
-                                                    <img className="w-100" src="/assets/images/service/service-04.png" alt="Service Images"/>
+                                                    <img className="w-100" src="/assets/images/service/service-04.png" alt="Persona image and demographic information"/>
                                                    
                                                 </div>
                                             </div>
@@ -131,13 +131,13 @@ class a11yReviews extends Component{
                                                     <ul className="liststyle">
                                                     
                                                     <li>After synthesizing my qualitative and quantitative data, I created <em>Personas</em> and <em>Use Cases</em> in <em>Figma</em> to share with the design and development teams as well as stakeholders.</li>
-                                                    <li>I conducted follow up research based on my findings. Including market research to learn more about the apps and assistive devices people had mentioned. As well as document the ways the app stores and other major sites let users post reviews.</li>
+                                                    <li>I conducted follow up research based on my findings. Including market research to learn more about the apps and assistive devices people had mentioned. In addition, I documented the ways the app stores and other major sites let users post reviews and filter results. The assessment of key competitors is an example of combining business needs with customer needs because we want our platform to offer something special for specific users.</li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12 order-1 order-lg-2">
                                                 <div className="thumb position-relative">
-                                                    <img className="w-100" src="/assets/images/service/service-05.png" alt="Service Images"/>
+                                                    <img className="w-100" src="/assets/images/service/service-05.png" alt="Persona image and demographic information"/>
                                                  
                                                 </div>
                                             </div>
@@ -150,7 +150,7 @@ class a11yReviews extends Component{
                                                     <img className="w-100" src="/assets/images/service/service-09.png" alt="Service Images"/>
                                                 </div> */}
                                                 <div className="thumb">
-                                                    <img className="w-100" src="/assets/images/service/service-08.svg" alt="Service Images"/>
+                                                    <img className="w-100" src="/assets/images/service/service-08.svg" alt="color palette and button design"/>
                                                 </div>
                                                 {/* <div className="thumb">
                                                     <img className="w-100" src="/assets/images/service/service-07.jpg" alt="Service Images"/>
@@ -163,7 +163,7 @@ class a11yReviews extends Component{
                                                         <ul>
                                                             <li><em>Atoms</em> are the colors, typography, button elements, and more. To the left, are our smallest atoms </li>
                                                             <li><em>Molecules</em> are when multiple atoms come together  </li> 
-                                                            <li><em>Organism</em> are  when atoms and molecules create more than the sum of atoms  </li> 
+                                                            <li><em>Organism</em> are  when atoms and molecules create more than the sum of atoms. For example, the card below combines these smaller elements. Design Systems rely on the re-use of base elements to create new features.</li> 
                                                             <li><em>Templates</em> explain the position of elements(organisms) on a page  </li> 
                                                             <li><em>Pages</em> are when you plug organism into your templates </li> 
                                                         </ul>
@@ -194,7 +194,7 @@ class a11yReviews extends Component{
                                             </div>
                                             <div className="col-lg-6 col-12 order-1 order-lg-2">
                                                 <div className="thumb position-relative">
-                                                    <img className="w-100" src="/assets/images/service/service-09.svg" alt="Service Images"/>
+                                                    <img className="w-100" src="/assets/images/service/service-09.svg" alt="app summary card"/>
                                                    
                                                 </div>
                                             </div>
@@ -204,7 +204,7 @@ class a11yReviews extends Component{
                                         <div className="row sercice-details-content pb--80 align-items-center">
                                             <div className="col-lg-6 col-12">
                                                 <div className="thumb">
-                                                    <img className="w-100" src="/assets/images/service/service-11.svg" alt="Service Images"/>
+                                                    <img className="w-100" src="/assets/images/service/service-11.svg" alt="Accessifier's logo"/>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12">
@@ -213,7 +213,7 @@ class a11yReviews extends Component{
                                                  
                                                     <h4 className="title">What I Learned:</h4>
                                                     <h3>Human Centered Design's Research and Inspiration</h3>
-                                                        <p> Through research and interviews I learned a lot more about screen readers and other assistive devices. The deep dive into our user's experience gave me a greater sense of empathy and renewed my passion for creating inclusive technology. </p>
+                                                        <p> Through research and interviews I learned a lot more about screen readers and other assistive devices. The deep dive into our user's experience gave me a greater sense of empathy and strengthened my passion for creating inclusive technology. </p>
                                                 
                                                     <h3>Collaborating with a team of designers</h3>
                                                         <p> We are currently implementing and testing our designs. It is amazing to work on a team of people who have self selected to do a project around accessibility. The collaboration across the country has taught me about the process of iteration and critique. We have struck a balance between convergent collaboration and divergent autonomous work.</p>

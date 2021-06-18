@@ -30,7 +30,7 @@ class AllyAudit extends Component{
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                 {/* Start Breadcrump Area */}
-                <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--6"  data-black-overlay="5">
+                <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--6"  data-black-overlay="7">
                     
                     
                     <div className="container">
@@ -57,7 +57,7 @@ class AllyAudit extends Component{
                                         <div className="row sercice-details-content pb--80 align-items-center">
                                             <div className="col-lg-6 col-12">
                                                 <div className="thumb">
-                                                    <img className="w-100" src="/assets/images/service/service-22.jpg" alt="Service Images"/>
+                                                    <img className="w-100" src="/assets/images/service/service-22.jpg" alt="Solar Panels on hills with trees"/>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12">
@@ -100,7 +100,7 @@ class AllyAudit extends Component{
                                             </div>
                                             <div className="col-lg-6 col-12 order-1 order-lg-2">
                                                 <div className="thumb position-relative">
-                                                    <img className="w-100" src="/assets/images/service/service-25.jpg" alt="Service Images"/>
+                                                    <img className="w-100" src="/assets/images/service/service-25.jpg" alt="pens, paper, notes"/>
                                                     
                                                 </div>
                                             </div>
@@ -111,7 +111,7 @@ class AllyAudit extends Component{
                                           <div className="row sercice-details-content pb--80 align-items-center">
                                             <div className="col-lg-6 col-12">
                                                 <div className="thumb">
-                                                <img className="w-100" src="/assets/images/service/service-20.svg" alt="Service Images"/>
+                                                <img className="w-100" src="/assets/images/service/service-20.svg" alt="Screenshot of dashboard highlighting contrast errors"/>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12">
@@ -140,7 +140,7 @@ class AllyAudit extends Component{
                                             </div>
                                             <div className="col-lg-6 col-12 order-1 order-lg-2">
                                                 <div className="thumb position-relative">
-                                                    <img className="w-100" src="/assets/images/service/service-21.svg" alt="Service Images"/>
+                                                    <img className="w-100" src="/assets/images/service/service-21.svg" alt="Screenshot of the same screen after improvements"/>
                                                    
                                                     
                                                 </div>
@@ -151,7 +151,7 @@ class AllyAudit extends Component{
                                         <div className="row sercice-details-content pb--80 align-items-center">
                                             <div className="col-lg-6 col-12">
                                                 <div className="thumb">
-                                                    <img className="w-100" src="/assets/images/service/service-26.jpg" alt="Service Images"/>
+                                                    <img className="w-100" src="/assets/images/service/service-26.jpg" alt="decorative flower"/>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12">

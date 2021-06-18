@@ -26,7 +26,7 @@ class CaseStudyProduct extends Component{
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                 {/* Start Breadcrump Area */}
-                <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--7"  data-black-overlay="5">
+                <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--7"  data-black-overlay="7">
                     
                     
                     <div className="container">
@@ -53,7 +53,7 @@ class CaseStudyProduct extends Component{
                                         <div className="row sercice-details-content pb--80 align-items-center">
                                             <div className="col-lg-6 col-12">
                                                 <div className="thumb">
-                                                    <img className="w-100" src="/assets/images/service/service-27.jpg" alt="Service Images"/>
+                                                    <img className="w-100" src="/assets/images/service/service-27.jpg" alt="Arial view of a city's rooftops, some with solar panels"/>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12">
@@ -110,7 +110,7 @@ class CaseStudyProduct extends Component{
                                           <div className="row sercice-details-content pb--80 align-items-center">
                                             <div className="col-lg-6 col-12">
                                                 <div className="thumb">
-                                                <img className="w-100" src="/assets/images/service/service-29.jpg" alt="Service Images"/>
+                                                <img className="w-100" src="/assets/images/service/service-29.jpg" alt="Screenshots of the large and mobile card"/>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12">
@@ -145,7 +145,7 @@ class CaseStudyProduct extends Component{
                                             </div>
                                             <div className="col-lg-6 col-12 order-1 order-lg-2">
                                                 <div className="thumb position-relative">
-                                                    <img className="w-100" src="/assets/images/service/service-30.jpg" alt="Service Images"/>
+                                                    <img className="w-100" src="/assets/images/service/service-30.jpg" alt="Screenshots of mobile card compared to react bootstrap generic card"/>
                                                    
                                                     
                                                 </div>
@@ -157,7 +157,7 @@ class CaseStudyProduct extends Component{
                                             <div className="row sercice-details-content pb--80 align-items-center">
                                             <div className="col-lg-6 col-12">
                                                 <div className="thumb">
-                                                <img className="w-100" src="/assets/images/service/service-34.jpg" alt="Service Images"/>
+                                                <img className="w-100" src="/assets/images/service/service-34.jpg" alt="Screenshot of onboarding form"/>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12">
@@ -189,14 +189,14 @@ class CaseStudyProduct extends Component{
                                             <div className="col-lg-6 col-12 order-1 order-lg-2" >
                                                 <div className="thumb position-relative">
                                                    <p>Low-fidelity</p>
-                                                    <img className="w-100" src="/assets/images/service/service-32.jpg" alt="Service Images"/>
+                                                    <img className="w-100" src="/assets/images/service/service-32.jpg" alt="Low-fidelity wireframe"/>
                                                     
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12 order-1 order-lg-2" style={{padding: '3em'}}>
                                                 <div className="thumb position-relative"  >
                                                     <p>High-fidelity</p>
-                                                    <img className="w-100" src="/assets/images/service/service-33.jpg" alt="Service Images" />
+                                                    <img className="w-100" src="/assets/images/service/service-33.jpg" alt="Wireframe high fidelity mockup" />
                                                 </div>
                                             </div>
                                         </div>
