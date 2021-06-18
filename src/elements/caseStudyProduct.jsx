@@ -206,7 +206,7 @@ class CaseStudyProduct extends Component{
                                         <div className="row sercice-details-content pb--80 align-items-center">
                                             <div className="col-lg-6 col-12">
                                                 <div className="thumb">
-                                                    <img className="w-100" src="/assets/images/service/service-31.jpg" alt="Image of a person looking at the shore with their reflection on the water"/>
+                                                    <img className="w-100" src="/assets/images/service/service-31.jpg" alt="person looking at the shore with their reflection on the water"/>
                                                     <figcaption>Photo by <a href="https://unsplash.com/@jeremyvessey" >@jeremyvessey</a></figcaption>
                                                 </div>
                                             </div>

@@ -33,7 +33,7 @@ import './index.scss';
 import DarkPortfolioLanding from './dark/PortfolioLanding';
 
 // Element Layout
-import Service from "./elements/Service";
+//import Service from "./elements/Service";
 // import ServiceDetails from "./elements/ServiceDetails";
 import a11yReviews from "./elements/a11yReviews";
 import a11yAudit from "./elements/a11yAudit"

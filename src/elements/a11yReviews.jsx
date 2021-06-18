@@ -116,7 +116,7 @@ class a11yReviews extends Component{
                                             </div>
                                             <div className="col-lg-6 col-12 order-1 order-lg-2">
                                                 <div className="thumb position-relative">
-                                                    <img className="w-100" src="/assets/images/service/service-04.png" alt="Persona image and demographic information"/>
+                                                    <img className="w-100" src="/assets/images/service/service-04.png" alt="Persona and demographic information"/>
                                                    
                                                 </div>
                                             </div>
@@ -137,7 +137,7 @@ class a11yReviews extends Component{
                                             </div>
                                             <div className="col-lg-6 col-12 order-1 order-lg-2">
                                                 <div className="thumb position-relative">
-                                                    <img className="w-100" src="/assets/images/service/service-05.png" alt="Persona image and demographic information"/>
+                                                    <img className="w-100" src="/assets/images/service/service-05.png" alt="Persona and demographic information"/>
                                                  
                                                 </div>
                                             </div>

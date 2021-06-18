@@ -18,7 +18,7 @@ class Testimonial extends Component{
                                         <p>"Sam is a tenacious human who takes on their work with an open mind! Their creative thinking is a real asset to any organization. As Sam's mentor, I have seen and heard first hand about how they approach projects, their adaptability and most importantly, their humility in willing to learn about an organization's true north and approach to coding and accessible design."</p>
                                     </div>
                                     <div className="author-info">
-                                        <p><a className="testimonial-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/hazel-valdez/" >Hazel Valdez </a> - Associate Director, Oregon Bioscience Association and <em>PDX Women In Tech Ambassador</em>
+                                        <p><a className="testimonial-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/hazel-valdez/" >Hazel Valdez </a> - Associate Director @ Oregon Bioscience Association and <em>PDX Women In Tech Ambassador</em>
                                         </p>
 
                                     </div>
@@ -31,7 +31,7 @@ class Testimonial extends Component{
                                         <p>"Sam worked tirelessly on a crucial web project for our clients. I relied on Sam to create a fully functional single-page responsive web app from a very rough sketch and was delighted with the results! Under a very tight deadline, Sam learned our customers' needs, our database and APIs, and our brand guidelines; and delivered the feature being used now by thousands of users across the globe."</p>
                                     </div>
                                     <div className="author-info">
-                                        <p><a className="testimonial-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/slubensky/">Serge Lubensky </a> - Founder at ReTool Ventures | Tech Entrepreneur</p>
+                                        <p><a className="testimonial-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/slubensky/">Serge Lubensky </a> - Founder @ ReTool Ventures | Tech Entrepreneur</p>
                                     </div>
                                 </div>
                             </TabPanel>
@@ -42,7 +42,7 @@ class Testimonial extends Component{
                                     </div>
                                     <div className="author-info">
                                         <p><a className="testimonial-link"
-                                        target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kitkohler/"> Kit Kohler </a> - Sustainabilist </p>
+                                        target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kitkohler/"> Kit Kohler </a> - Partner & Director of Marketing @ Sustainabilist </p>
                                     </div>
                                 </div>
                             </TabPanel>

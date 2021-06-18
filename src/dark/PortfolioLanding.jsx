@@ -9,7 +9,7 @@ import TabTwo from "../elements/tab/TabTwo";
 // import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import Skills from "../elements/service/ServiceList";
-import BlogContent from "../elements/blog/BlogContent";
+// import BlogContent from "../elements/blog/BlogContent";
 import Testimonials from "../elements/Testimonial"
 
 const SlideList = [
@@ -24,7 +24,7 @@ const SlideList = [
 const PortfolioLanding = () => {
     let title = 'About Me',
         description = 'I am a UI/UX designer with professional full-stack engineering experience, which makes my designs maintainable, evidence-based, and accessible. My innovative path into the tech industry provides me with interdisciplinary insights when designing for all types of people.';
-    const PostList = BlogContent.slice(0 , 3);
+    // const PostList = BlogContent.slice(0 , 3);
     return (
         <div >
             <Helmet pageTitle="Portfolio" />

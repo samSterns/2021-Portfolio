@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import {FaGithub , FaLinkedinIn } from "react-icons/fa";
-import { FiX , FiMenu} from "react-icons/fi";
-import Scrollspy from 'react-scrollspy';
+
 import logo from '../../../public/assets/images/logo/logoHome.svg'
 
 const SocialShare = [
@@ -82,7 +81,7 @@ class HeaderCaseStudy extends Component{
                         <div className="social-share-inner">
                             <ul className="social-share  color-black d-flex justify-content-start liststyle">
                                 {SocialShare.map((val , i) => (
-                                    <li key={i}><a alt={val.social} target="_blank" href={`${val.link}`}>{val.Social}</a></li>
+                                    <li key={i}><a alt={val.social} target="_blank" rel="noopener noreferrer" href={`${val.link}`}>{val.Social}</a></li>
                                 ))}
                             </ul>
                         </div>

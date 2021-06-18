@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import {FaGithub , FaLinkedinIn } from "react-icons/fa";
 import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy';
-import logo from '../../../public/assets/images/logo/logoHome.svg'
 
 const SocialShare = [
     {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/samsterns/'},
