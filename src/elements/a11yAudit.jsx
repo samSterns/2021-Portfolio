@@ -168,7 +168,7 @@ class AllyAudit extends Component{
                                                         </li>
                                                         <li>
                                                             <h3>Collaborating with a Team of Engineers</h3>
-                                                            <p> I taught the development team solutions to their most common errors, which addressed the source of the problem and reduced further creation of technical debt.</p>
+                                                            <p> I taught the development team solutions to their most common errors, which addressed the source of the problem and reduced further creation of technical debt. At certain points in the project, I pair-programmed with the engineers to ensure that my solutions did not have unwanted ramifications.</p>
                                                         </li>
                                                     </ul>
                                                         

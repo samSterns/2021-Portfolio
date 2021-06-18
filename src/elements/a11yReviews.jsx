@@ -159,7 +159,7 @@ class a11yReviews extends Component{
                                             <div className="col-lg-6 col-12">
                                                 <div className="details mt_md--30 mt_sm--30">
                                                     <h4 className="title">Atomic Design</h4>
-                                                        <p>Atomic Design created by Brad Frost is a theory that likens Design systems to chemistry. The process helps create a cohesive design system using repetitive components. </p>
+                                                        <p>Atomic Design created by Brad Frost is a theory that likens Design Systems to chemistry. The process helps create a cohesive design system using repetitive components. </p>
                                                         <ul>
                                                             <li><em>Atoms</em> are the colors, typography, button elements, and more. To the left, are our smallest atoms </li>
                                                             <li><em>Molecules</em> are when multiple atoms come together  </li> 
@@ -180,7 +180,7 @@ class a11yReviews extends Component{
                                                     <h4 className="title">Solutions</h4>
                                                     <h5> Improving the process of searching for a review while using a screen reader</h5>
                                                     <ul className="liststyle">
-                                                    <li>No 'read more' button because users expressed this as a barrier. Screen reader use cases were more important than avoiding visual clutter. </li>
+                                                    <li>We removed the 'read more' button because users expressed this as a barrier because clicking through is harder than scanning more text. Screen reader use cases were more important than avoiding visual clutter. </li>
     
                                                     <li>The advanced search option allows users to tailor results for their needs, the technology used, and the app name or keyword, which is unique to this app. Other review websites only let you filter by most popular, highly rated, ect. With a narrower search result a person with a screen reader has less irrelevant information to listen to.</li>
                                                     
