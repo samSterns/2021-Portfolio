@@ -37,7 +37,7 @@ class a11yReviews extends Component{
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
                                     <h2 className="title theme-gradient">Accessibility Reviews</h2>
-                                    <p>UI/UX Design for a disability community platform to rate digital products</p>
+                                    <h3>UI/UX Design for a disability community platform to rate digital products</h3>
                                 </div>
                             </div>
                         </div>

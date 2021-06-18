@@ -80,7 +80,7 @@ class HeaderCaseStudy extends Component{
                     </div>
                     <div className="header-right">
                         <div className="social-share-inner">
-                            <ul className="social-share social-style--2 color-black d-flex justify-content-start liststyle">
+                            <ul className="social-share  color-black d-flex justify-content-start liststyle">
                                 {SocialShare.map((val , i) => (
                                     <li key={i}><a alt="link to social media" target="_blank" href={`${val.link}`}>{val.Social}</a></li>
                                 ))}
@@ -92,13 +92,13 @@ class HeaderCaseStudy extends Component{
                             </a>
                         </div> */}
                         {/* Start Humberger Menu  */}
-                        <div className="humberger-menu d-block d-lg-none pl--20">
+                        {/* <div className="humberger-menu d-block d-lg-none pl--20">
                             <span onClick={this.menuTrigger} className="menutrigger text-white"><FiMenu /></span>
-                        </div>
+                        </div> */}
                         {/* End Humberger Menu  */}
-                        <div className="close-menu d-block d-lg-none">
+                        {/* <div className="close-menu d-block d-lg-none">
                             <span onClick={this.CLoseMenuTrigger} className="closeTrigger"><FiX /></span>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </header>

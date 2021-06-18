@@ -7,7 +7,7 @@ class Testimonial extends Component{
         
         return(
             <React.Fragment>
-                <Helmet pageTitle="testimonials" />
+                <Helmet pageTitle="Testimonials" />
                 
                 <div className="row">
                     <div className="col-lg-12">
@@ -31,7 +31,7 @@ class Testimonial extends Component{
                                         <p>"Fatima Asrafy standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original."</p>
                                     </div>
                                     <div className="author-info">
-                                        <p><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/slubensky/">Serge Lubensky </a> - Founder at ReTool Ventures | Tech Entrepreneur</p>
+                                        <p><a className="testimonial-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/slubensky/">Serge Lubensky </a> - Founder at ReTool Ventures | Tech Entrepreneur</p>
                                     </div>
                                 </div>
                             </TabPanel>
@@ -41,7 +41,8 @@ class Testimonial extends Component{
                                         <p>"Sam is a capable and coachable front end coder and designer who is eager to learn and adds value to any project they touch. Their expertise was key in doing an accessibility and consistency audit of a high profile project and their implementation of those solutions was thorough and made a measurable difference in usability for all of our users. I'm excited to see their career grow and expect to see them continue to apply their talent to anything thrown at them."</p>
                                     </div>
                                     <div className="author-info">
-                                        <p><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kitkohler/"> Kit Kohler </a> - Sustainabilist </p>
+                                        <p><a className="testimonial-link"
+                                        target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kitkohler/"> Kit Kohler </a> - Sustainabilist </p>
                                     </div>
                                 </div>
                             </TabPanel>

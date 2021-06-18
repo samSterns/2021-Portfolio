@@ -44,7 +44,7 @@ class Skills extends Component{
         
         return(
             <React.Fragment>
-                <Helmet pageTitle="skills" />
+                <Helmet pageTitle="Skills" />
                 <div className="row">
                     {ServiceContent.map( (val , i) => (
                         <div className={`${column}`} key={i}>

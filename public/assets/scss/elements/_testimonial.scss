@@ -67,6 +67,7 @@ Testimonial Styles
                 left: 25%;
                 top: -50px;
                 background-image: url(/assets/images/client/image-1.png);
+                margin-top: 2em;
                 content: "";
                 opacity: 1;
                 background-repeat: no-repeat;
@@ -87,6 +88,7 @@ Testimonial Styles
                 right: 25%;
                 bottom: -115px;
                 background-image: url(/assets/images/client/image-2.png);
+                margin-top: 2em;
                 content: "";
                 opacity: 1;
                 background-repeat: no-repeat;
@@ -122,13 +124,15 @@ Testimonial Styles
     }
 }
 
+a.testimonial-link {
+    color: darkblue;
+   
+    
+}
 
 .rn-testimonial-light {
     .rn-testimonial-content {
         .inner {
-            .testimonial-link {
-                color: blue;
-            }
             p {
                 color: #797676;
             }

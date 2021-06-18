@@ -15,7 +15,7 @@ import Testimonials from "../elements/Testimonial"
 const SlideList = [
     {
         textPosition: 'text-left',
-        category: 'Thanks for stopping by',
+        category: 'Thank you for stopping by',
         description: '',
         buttonText: '',
         buttonLink: ''

@@ -36,7 +36,8 @@
 
         &::before{
             background-color: #C55337;
-            background-image: linear-gradient(#C55337 10%, #000000 100%);
+           // background-image: linear-gradient(#C55337 10%, #000000 100%);
+           background-image: linear-gradient(to right, #19838C 10%, #0c2d30 100%);
             position: absolute;
             content: "";
             top: 0;
@@ -146,10 +147,14 @@
         }
         .inner {
             p {
-                color: #c6c9d8;
+                color: #fff;
                 font-size: 14px;
+                font-weight: 500;
             }
-            h4 {
+            .project-title {
+                color: #fff
+            }
+            h3 {
                 font-size: 24px;
                 line-height: 36px;
                 a{

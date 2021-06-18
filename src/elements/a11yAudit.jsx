@@ -38,7 +38,7 @@ class AllyAudit extends Component{
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
                                     <h2 className="title theme-gradient">Accessibility Audit</h2>
-                                    <p>Audit of a Design System and Legacy Codebases</p>
+                                    <h3>Audit of a Design System and Legacy Codebases</h3>
                                 </div>
                             </div>
                         </div>
@@ -164,7 +164,7 @@ class AllyAudit extends Component{
                                                         <li>
                                                             <h3>Multidimensional Accessibility Audit</h3>
                                                             <p>I learned how to document a technical audit while using a technique I learned at the Deque Axe Conference. The prioritization method lets me break down the work into vertical slices while accomplishing the most important tasks first. I used my developer experience to understand the impact and expense of each solution.</p>
-                                                            <a style={{color: "blue"}} href="https://noti.st/davatron5000/MiKgzk" alt="learn more about multidimensional audits" target="_blank"> Learn More </a> 
+                                                            <a style={{color: "darkblue"}} href="https://noti.st/davatron5000/MiKgzk" alt="learn more about multidimensional audits" target="_blank"> Learn More </a> 
                                                         </li>
                                                         <li>
                                                             <h3>Collaborating with a Team of Engineers</h3>

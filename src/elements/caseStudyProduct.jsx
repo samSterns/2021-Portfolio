@@ -34,7 +34,7 @@ class CaseStudyProduct extends Component{
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
                                     <h2 className="title theme-gradient">Clean Tech Product</h2>
-                                    <p>UI & UX Design for Crowd Funding Platform</p>
+                                    <h3>UI & UX Design for Crowd Funding Platform</h3>
                                 </div>
                             </div>
                         </div>

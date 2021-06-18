@@ -357,7 +357,7 @@ p:last-child {
 
 
 %gradientDefault {
-    background: linear-gradient(to right, #f81f01 50%, #ee076e 50%);
+    background-image: linear-gradient(to right, #19838C 10%, #0c2d30 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -368,11 +368,11 @@ p:last-child {
 }
 
 .theme-gradient {
-    background: linear-gradient(-259deg, #C55337 100%, #ee076e 100%);
+    background-image: linear-gradient(to right, #19838C 10%, #0c2d30 100%);
 }
 .bg-theme-gradient {
     background: #C55337;
-    background: linear-gradient(145deg, #C55337 100%, #ee076e 100%);
+    background-image: linear-gradient(to right, #19838C 10%, #0c2d30 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f81f01', endColorstr='#ee076e',GradientType=1 );
 }
 
@@ -380,7 +380,7 @@ p:last-child {
 
 
 %theme-gradient {
-    background: linear-gradient(-259deg, #C55337 0, #ee076e 100%);
+    background-image: linear-gradient(to right, #19838C 10%, #0c2d30 100%);
 }
 
 
