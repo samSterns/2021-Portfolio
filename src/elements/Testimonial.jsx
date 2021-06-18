@@ -28,7 +28,7 @@ class Testimonial extends Component{
                             <TabPanel>
                                 <div className="rn-testimonial-content text-center">
                                     <div className="inner">
-                                        <p>"Fatima Asrafy standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original."</p>
+                                        <p>"Sam worked tirelessly on a crucial web project for our clients. I relied on Sam to create a fully functional single-page responsive web app from a very rough sketch and was delighted with the results! Under a very tight deadline, Sam learned our customers' needs, our database and APIs, and our brand guidelines; and delivered the feature being used now by thousands of users across the globe."</p>
                                     </div>
                                     <div className="author-info">
                                         <p><a className="testimonial-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/slubensky/">Serge Lubensky </a> - Founder at ReTool Ventures | Tech Entrepreneur</p>

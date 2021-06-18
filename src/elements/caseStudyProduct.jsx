@@ -99,8 +99,8 @@ class CaseStudyProduct extends Component{
                                             </div>
                                             <div className="col-lg-6 col-12 order-1 order-lg-2">
                                                 <div className="thumb position-relative">
-                                                    <img className="w-100" src="/assets/images/service/service-28.jpg" alt="Service Images"/>
-                                                    
+                                                    <img className="w-100" src="/assets/images/service/service-28.jpg" alt="Arm holding an incandescent bulb"/>
+                                                    <figcaption>Photo by <a href="https://unsplash.com/@jdiegoph" >@jdiegoph</a></figcaption>
                                                 </div>
                                             </div>
                                         </div>
@@ -206,7 +206,8 @@ class CaseStudyProduct extends Component{
                                         <div className="row sercice-details-content pb--80 align-items-center">
                                             <div className="col-lg-6 col-12">
                                                 <div className="thumb">
-                                                    <img className="w-100" src="/assets/images/service/service-31.jpg" alt="Service Images"/>
+                                                    <img className="w-100" src="/assets/images/service/service-31.jpg" alt="Image of a person looking at the shore with their reflection on the water"/>
+                                                    <figcaption>Photo by <a href="https://unsplash.com/@jeremyvessey" >@jeremyvessey</a></figcaption>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12">
