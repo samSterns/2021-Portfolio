@@ -113,6 +113,7 @@
                 &.title {
                     margin-bottom: 19px;
                     font-weight: 500;
+                    padding-top: 1em;
                     @extend %transition;
                     @media #{$laptop-device} {
                         font-size: 19px;

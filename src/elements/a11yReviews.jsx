@@ -67,7 +67,13 @@ class a11yReviews extends Component{
                                                         <li>Client: <em>Accessifiers Nonprofit</em></li>
                                                         <li>Industry: <em>Consumer Ratings</em></li>
                                                         <li>Inspiration: <em>Google's Material Design System</em></li>
-                                                        <li>My Contributions: <em>User Research, UX Design, UI Design with Atomic Design Principles </em></li>
+                                                    </ul>
+                                                <h4 className="title">My Contributions</h4>
+                                                    <ul className="liststyle">
+                                                        <li>User Research</li>
+                                                        <li>UX Design using Human Centered Design Principles</li>
+                                                        <li>UI Design with Atomic Design Principles</li>
+                                                        
                                                     </ul>
                                                     
                                                 </div>
@@ -98,12 +104,13 @@ class a11yReviews extends Component{
                                         </div>
                                         {/* End Single Area */}
 
-                                        <h4 className="title">User Research</h4>
-                                        <Counter />
                                         {/* Start Single Area the research*/}
                                         <div className="row sercice-details-content align-items-center">
                                             <div className="col-lg-6 col-12 order-2 order-lg-1">
                                                 <div className="details mt_md--30 mt_sm--30">
+                                        <h4 className="title">User Research</h4>
+
+                                        <Counter />
                                         
                                                 
                                                     <ul className="liststyle">
@@ -213,7 +220,8 @@ class a11yReviews extends Component{
                                                  
                                                     <h4 className="title">What I Learned:</h4>
                                                     <h3>Human Centered Design's Research and Inspiration</h3>
-                                                        <p> Through research and interviews I learned a lot more about screen readers and other assistive devices. The deep dive into our user's experience gave me a greater sense of empathy and strengthened my passion for creating inclusive technology. </p>
+                                                        <p>The team implemented many of the human-centered design principles including to <em>resist being attached to your own good idea</em>, <em>following the users leads and needs</em>, and more. For example, the team focused on research initially because we were designing for screen reader users. The experience of navigating technology with assistive devices is different from how I perceive and navigate a website, so the research process required empathy and listening to lived experiences of other people. We followed their leads and needs, which led us to decisions that broke conventions, but for a good evidence-based reasons such as removing the 'read more' button. 
+ </p>
                                                 
                                                     <h3>Collaborating with a team of designers</h3>
                                                         <p> We are currently implementing and testing our designs. It is amazing to work on a team of people who have self selected to do a project around accessibility. The collaboration across the country has taught me about the process of iteration and critique. We have struck a balance between convergent collaboration and divergent autonomous work.</p>
