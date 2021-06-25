@@ -18,7 +18,7 @@ class Testimonial extends Component{
                                         <p>"Sam is a tenacious human who takes on their work with an open mind! Their creative thinking is a real asset to any organization. As Sam's mentor, I have seen and heard first hand about how they approach projects, their adaptability and most importantly, their humility in willing to learn about an organization's true north and approach to coding and accessible design."</p>
                                     </div>
                                     <div className="author-info">
-                                        <p><a className="testimonial-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/hazel-valdez/" >Hazel Valdez </a> - Associate Director @ Oregon Bioscience Association and <em>PDX Women In Tech Ambassador</em>
+                                        <p><a className="testimonial-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/hazel-valdez/" >Hazel Valdez </a> - Associate Director @ Oregon Bioscience Association and <em>PDX WIT Ambassador</em>
                                         </p>
 
                                     </div>
