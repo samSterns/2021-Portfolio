@@ -23,7 +23,7 @@ const SlideList = [
 ]
 const PortfolioLanding = () => {
     let title = 'About Me',
-        description = 'I am a UI/UX Designer with professional front-end engineering experience who creates software for mission-driven companies to make our world a little bit better. My designs are maintainable, evidence-based, and accessible. My innovative path into the tech industry provides me with interdisciplinary insights when designing for all types of people.';
+        description = 'I am a UI/UX Designer with professional front-end engineering experience who designs software for mission-driven companies to make our world a little bit better. My designs are maintainable, evidence-based, and accessible. My innovative path into the tech industry provides me with interdisciplinary insights when designing for all types of people.';
     // const PostList = BlogContent.slice(0 , 3);
     return (
         <div >
